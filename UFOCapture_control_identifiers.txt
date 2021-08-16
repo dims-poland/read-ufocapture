@@ -1,0 +1,2333 @@
+Control Identifiers:
+
+Dialog - 'UFOCaptureHD2 (before registration)'    (L76, T-9, R1929, B1089)
+['UFOCaptureHD2 (before registration)Dialog', 'UFOCaptureHD2 (before registration)', 'Dialog']
+child_window(title="UFOCaptureHD2 (before registration)", class_name="#32770")
+   | 
+   | #32770 - ''    (L87, T31, R630, B1080)
+   | ['Video#32770', '#32770', '#327700', '#327701']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | #32770 - 'Input'    (L91, T56, R626, B1076)
+   |    | ['#327702', 'Input#32770', 'Input']
+   |    | child_window(title="Input", class_name="#32770")
+   |    |    | 
+   |    |    | ComboBox - ''    (L131, T60, R345, B84)
+   |    |    | ['VideoComboBox', 'ComboBox', 'VideoComboBox0', 'VideoComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L134, T63, R321, B81)
+   |    |    |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L134, T63, R321, B81)
+   |    |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L349, T60, R419, B84)
+   |    |    | ['VideoComboBox2', 'ComboBox2']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L352, T63, R395, B81)
+   |    |    |    | ['VideoEdit2', 'Edit2']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L352, T63, R395, B81)
+   |    |    | ['VideoEdit2', 'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'set'    (L419, T60, R449, B84)
+   |    |    | ['Button', 'set', 'setButton', 'Button0', 'Button1', 'set0', 'set1', 'setButton0', 'setButton1']
+   |    |    | child_window(title="set", class_name="Button")
+   |    |    | 
+   |    |    | ComboBox - 'NULL'    (L143, T140, R329, B164)
+   |    |    | ['ComboBox3', 'AudioComboBox']
+   |    |    | child_window(title="NULL", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    |    |    | ['Edit3', 'AudioEdit']
+   |    |    |    | child_window(title="NULL", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    |    | ['Edit3', 'AudioEdit']
+   |    |    | child_window(title="NULL", class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - ''    (L331, T140, R411, B164)
+   |    |    | ['FourccComboBox', 'ComboBox4', 'FourccComboBox0', 'FourccComboBox1']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L334, T143, R387, B161)
+   |    |    |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L334, T143, R387, B161)
+   |    |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'set'    (L415, T140, R449, B164)
+   |    |    | ['Button2', 'set2', 'setButton2']
+   |    |    | child_window(title="set", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '1920'    (L143, T86, R207, B110)
+   |    |    | ['XiEdit', 'Edit5']
+   |    |    | child_window(title="1920", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - '1080'    (L243, T86, R307, B110)
+   |    |    | ['YiEdit', 'Edit6']
+   |    |    | child_window(title="1080", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - '30.000'    (L369, T84, R447, B108)
+   |    |    | ['FpsEdit', 'Edit7']
+   |    |    | child_window(title="30.000", class_name="Edit")
+   |    |    | 
+   |    |    | ComboBox - 'AVI(uncompressed)'    (L143, T168, R287, B192)
+   |    |    | ['CodecComboBox', 'ComboBox5']
+   |    |    | child_window(title="AVI(uncompressed)", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    |    |    | ['CodecEdit', 'Edit8']
+   |    |    |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    |    | ['CodecEdit', 'Edit8']
+   |    |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'set'    (L415, T170, R449, B194)
+   |    |    | ['Button3', 'set3', 'setButton3']
+   |    |    | child_window(title="set", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '30'    (L187, T216, R221, B240)
+   |    |    | ['Edit9', 'HeadEdit']
+   |    |    | child_window(title="30", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L219, T216, R240, B242)
+   |    |    | ['UpDown', 'HeadUpDown', 'UpDown0', 'UpDown1']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Static - 'Tail'    (L255, T220, R279, B238)
+   |    |    | ['TailStatic', 'Tail', 'Static', 'Static0', 'Static1']
+   |    |    | child_window(title="Tail", class_name="Static")
+   |    |    | 
+   |    |    | UpDown - ''    (L319, T216, R340, B242)
+   |    |    | ['UpDown2', 'TailUpDown']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '1'    (L383, T216, R413, B240)
+   |    |    | ['DiffEdit', 'Edit10']
+   |    |    | child_window(title="1", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L417, T216, R438, B242)
+   |    |    | ['setUpDown', 'UpDown3']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - 'DA-ALL.bmp'    (L187, T278, R357, B302)
+   |    |    | ['Edit11', 'Detect AreaEdit']
+   |    |    | child_window(title="DA-ALL.bmp", class_name="Edit")
+   |    |    | 
+   |    |    | Button - '....'    (L361, T276, R393, B300)
+   |    |    | ['....Button', '....', 'Button4']
+   |    |    | child_window(title="....", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Edit'    (L395, T276, R439, B300)
+   |    |    | ['EditButton', 'Edit12', 'Button5']
+   |    |    | child_window(title="Edit", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '2'    (L153, T304, R181, B328)
+   |    |    | ['Min(frm)Edit', 'Edit13']
+   |    |    | child_window(title="2", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - '0'    (L267, T304, R301, B328)
+   |    |    | ['Edit14', 'Max(sec)Edit']
+   |    |    | child_window(title="0", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L301, T304, R322, B330)
+   |    |    | ['UpDown4', 'Max(sec)UpDown', 'Max(sec)UpDown0', 'Max(sec)UpDown1']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '100'    (L379, T304, R417, B328)
+   |    |    | ['EXsizeEdit', 'Edit15']
+   |    |    | child_window(title="100", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L419, T304, R440, B330)
+   |    |    | ['EditUpDown', 'UpDown5']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'Detect Level Noise Tracking'    (L99, T338, R305, B358)
+   |    |    | ['CheckBox', 'Detect Level Noise Tracking', 'Detect Level Noise TrackingCheckBox', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Detect Level Noise Tracking", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '110'    (L153, T356, R193, B380)
+   |    |    | ['Edit16', 'DLratio (%)Edit']
+   |    |    | child_window(title="110", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L191, T356, R212, B382)
+   |    |    | ['UpDown6', 'Max(sec)UpDown2']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '4'    (L267, T356, R301, B380)
+   |    |    | ['MinDLEdit', 'Edit17']
+   |    |    | child_window(title="4", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L301, T358, R322, B384)
+   |    |    | ['ignore blackoutUpDown', 'UpDown7', 'ignore blackoutUpDown0', 'ignore blackoutUpDown1']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '10'    (L379, T358, R417, B382)
+   |    |    | ['MinL-NEdit', 'Edit18']
+   |    |    | child_window(title="10", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L419, T358, R440, B384)
+   |    |    | ['ignore blackoutUpDown2', 'UpDown8']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'Scintillation Mask'    (L99, T388, R231, B404)
+   |    |    | ['CheckBox2', 'Scintillation MaskCheckBox', 'Scintillation Mask']
+   |    |    | child_window(title="Scintillation Mask", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '110'    (L149, T412, R187, B436)
+   |    |    | ['SMlevelEdit', 'Edit19']
+   |    |    | child_window(title="110", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L185, T410, R206, B436)
+   |    |    | ['SMspeedUpDown', 'UpDown9', 'SMspeedUpDown0', 'SMspeedUpDown1']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '2'    (L267, T412, R301, B436)
+   |    |    | ['SMspeedEdit', 'Edit20']
+   |    |    | child_window(title="2", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L301, T412, R322, B438)
+   |    |    | ['SMspeedUpDown2', 'UpDown10']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Static - 'SMsize'    (L327, T414, R371, B430)
+   |    |    | ['Static2', 'SMsize', 'SMsizeStatic']
+   |    |    | child_window(title="SMsize", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '8'    (L379, T410, R417, B434)
+   |    |    | ['SMsizeEdit', 'Edit21']
+   |    |    | child_window(title="8", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L419, T412, R440, B438)
+   |    |    | ['SMsizeUpDown', 'UpDown11']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'DarkObjMask'    (L99, T444, R207, B460)
+   |    |    | ['CheckBox3', 'DarkObjMaskCheckBox', 'DarkObjMask']
+   |    |    | child_window(title="DarkObjMask", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '2'    (L267, T438, R301, B462)
+   |    |    | ['DOlevelEdit', 'Edit22']
+   |    |    | child_window(title="2", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L301, T438, R322, B464)
+   |    |    | ['DOlevelUpDown', 'UpDown12']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'SlowObjMask   Pix/s'    (L99, T468, R267, B486)
+   |    |    | ['CheckBox4', 'SlowObjMask   Pix/s', 'SlowObjMask   Pix/sCheckBox']
+   |    |    | child_window(title="SlowObjMask   Pix/s", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '36'    (L267, T466, R301, B490)
+   |    |    | ['Edit23', 'SlowObjMask   Pix/sEdit']
+   |    |    | child_window(title="36", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L301, T464, R322, B490)
+   |    |    | ['UpDown13', 'SlowObjMask   Pix/sUpDown']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Static - 'SOsize'    (L329, T470, R377, B490)
+   |    |    | ['SOsize', 'Static3', 'SOsizeStatic']
+   |    |    | child_window(title="SOsize", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '36'    (L379, T466, R417, B490)
+   |    |    | ['SOsizeEdit', 'Edit24']
+   |    |    | child_window(title="36", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L419, T466, R440, B492)
+   |    |    | ['SOsizeUpDown', 'UpDown14']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'Audio'    (L99, T520, R161, B536)
+   |    |    | ['CheckBox5', 'Audio', 'AudioCheckBox', 'Audio0', 'Audio1']
+   |    |    | child_window(title="Audio", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Interval (still only'    (L169, T520, R311, B536)
+   |    |    | ['CheckBox6', 'Interval (still only', 'Interval (still onlyCheckBox']
+   |    |    | child_window(title="Interval (still only", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '60'    (L379, T516, R417, B540)
+   |    |    | [') MinEdit', 'Edit25']
+   |    |    | child_window(title="60", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L417, T516, R438, B538)
+   |    |    | ['UpDown15', 'Optional TriggersUpDown']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '%T%m %F%X %L %i %I UFOCaptureHD2'    (L151, T568, R435, B592)
+   |    |    | ['FormatEdit', 'Edit26']
+   |    |    | child_window(title="%T%m %F%X %L %i %I UFOCaptureHD2", class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - 'On'    (L99, T600, R143, B620)
+   |    |    | ['CheckBox7', 'On', 'OnCheckBox']
+   |    |    | child_window(title="On", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 's'    (L139, T600, R171, B618)
+   |    |    | ['s', 'sRadioButton', 'RadioButton', 'RadioButton0', 'RadioButton1']
+   |    |    | child_window(title="s", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'm'    (L171, T600, R205, B618)
+   |    |    | ['mRadioButton', 'RadioButton2', 'm']
+   |    |    | child_window(title="m", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'l'    (L207, T600, R243, B618)
+   |    |    | ['lRadioButton', 'RadioButton3', 'l']
+   |    |    | child_window(title="l", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '1'    (L287, T596, R323, B620)
+   |    |    | ['Edit27', 'Y-PosEdit']
+   |    |    | child_window(title="1", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L323, T596, R344, B622)
+   |    |    | ['Y-PosUpDown', 'UpDown16']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | CheckBox - 'UTC'    (L99, T632, R153, B652)
+   |    |    | ['CheckBox8', 'UTCCheckBox', 'UTC']
+   |    |    | child_window(title="UTC", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'ChangeDate'    (L199, T632, R301, B652)
+   |    |    | ['CheckBox9', 'ChangeDate', 'ChangeDateCheckBox']
+   |    |    | child_window(title="ChangeDate", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '20111231_235959'    (L307, T632, R435, B656)
+   |    |    | ['ChangeDateEdit', 'Edit28']
+   |    |    | child_window(title="20111231_235959", class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - 'Area'    (L177, T660, R239, B680)
+   |    |    | ['CheckBox10', 'AreaCheckBox', 'Area']
+   |    |    | child_window(title="Area", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'SMw'    (L245, T660, R299, B680)
+   |    |    | ['CheckBox11', 'SMwCheckBox', 'SMw']
+   |    |    | child_window(title="SMw", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'SMb'    (L311, T660, R369, B680)
+   |    |    | ['CheckBox12', 'SMbCheckBox', 'SMb']
+   |    |    | child_window(title="SMb", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Video'    (L91, T66, R127, B82)
+   |    |    | ['VideoStatic', 'Static4', 'Video']
+   |    |    | child_window(title="Video", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Audio'    (L91, T146, R129, B162)
+   |    |    | ['Audio2', 'AudioStatic', 'Static5', 'AudioStatic0', 'AudioStatic1']
+   |    |    | child_window(title="Audio", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Codec'    (L91, T174, R133, B190)
+   |    |    | ['CodecStatic', 'Codec', 'Static6']
+   |    |    | child_window(title="Codec", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Xi'    (L121, T88, R137, B104)
+   |    |    | ['Static7', 'XiStatic', 'Xi']
+   |    |    | child_window(title="Xi", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Fps'    (L333, T86, R355, B104)
+   |    |    | ['FpsStatic', 'Static8', 'Fps']
+   |    |    | child_window(title="Fps", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Head'    (L143, T220, R179, B236)
+   |    |    | ['Head', 'Static9', 'HeadStatic']
+   |    |    | child_window(title="Head", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Diff'    (L351, T220, R375, B242)
+   |    |    | ['Diff', 'Static10', 'DiffStatic']
+   |    |    | child_window(title="Diff", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '30'    (L291, T216, R321, B240)
+   |    |    | ['TailEdit', 'Edit29']
+   |    |    | child_window(title="30", class_name="Edit")
+   |    |    | 
+   |    |    | GroupBox - 'Frame Shift'    (L91, T200, R443, B252)
+   |    |    | ['Frame ShiftGroupBox', 'Frame Shift', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    |    | child_window(title="Frame Shift", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Y-Pos'    (L245, T604, R285, B620)
+   |    |    | ['Static11', 'Y-Pos', 'Y-PosStatic']
+   |    |    | child_window(title="Y-Pos", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Super Impose'    (L91, T548, R445, B686)
+   |    |    | ['Super Impose', 'GroupBox2', 'Super ImposeGroupBox']
+   |    |    | child_window(title="Super Impose", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Min(frm)'    (L93, T310, R153, B326)
+   |    |    | ['Min(frm)Static', 'Min(frm)', 'Static12']
+   |    |    | child_window(title="Min(frm)", class_name="Static")
+   |    |    | 
+   |    |    | UpDown - ''    (L181, T304, R202, B330)
+   |    |    | ['Detect AreaUpDown', 'UpDown17', 'Min(frm)UpDown']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Static - 'EXsize'    (L325, T310, R375, B326)
+   |    |    | ['EXsize', 'Static13', 'EXsizeStatic']
+   |    |    | child_window(title="EXsize", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Max(sec)'    (L205, T310, R265, B326)
+   |    |    | ['Max(sec)Static', 'Static14', 'Max(sec)']
+   |    |    | child_window(title="Max(sec)", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'MinL-N'    (L327, T362, R371, B378)
+   |    |    | ['MinL-N', 'MinL-NStatic', 'Static15']
+   |    |    | child_window(title="MinL-N", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Video Trigger'    (L91, T256, R447, B496)
+   |    |    | ['Video Trigger', 'Video TriggerGroupBox', 'GroupBox3']
+   |    |    | child_window(title="Video Trigger", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Detect Area'    (L95, T284, R175, B300)
+   |    |    | ['Detect Area', 'Static16', 'Detect AreaStatic']
+   |    |    | child_window(title="Detect Area", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Format'    (L95, T568, R147, B584)
+   |    |    | ['Format', 'Static17', 'FormatStatic']
+   |    |    | child_window(title="Format", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Yi'    (L223, T88, R239, B104)
+   |    |    | ['Yi', 'YiStatic', 'Static18']
+   |    |    | child_window(title="Yi", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Preview opt'    (L97, T660, R175, B676)
+   |    |    | ['Preview optStatic', 'Preview opt', 'Static19']
+   |    |    | child_window(title="Preview opt", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'SMspeed'    (L205, T414, R263, B430)
+   |    |    | ['SMspeedStatic', 'Static20', 'SMspeed']
+   |    |    | child_window(title="SMspeed", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - 'File input'    (L99, T698, R189, B718)
+   |    |    | ['CheckBox13', 'File inputCheckBox', 'File input']
+   |    |    | child_window(title="File input", class_name="Button")
+   |    |    | 
+   |    |    | Edit - 'C:\Users\micha\Documents'    (L189, T696, R385, B720)
+   |    |    | ['AreaEdit', 'Edit30']
+   |    |    | child_window(title="C:\Users\micha\Documents", class_name="Edit")
+   |    |    | 
+   |    |    | Button - '...'    (L393, T700, R419, B718)
+   |    |    | ['...Button', '...', 'Button6']
+   |    |    | child_window(title="...", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'MinDL'    (L217, T362, R261, B378)
+   |    |    | ['MinDLStatic', 'Static21', 'MinDL']
+   |    |    | child_window(title="MinDL", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Optional Triggers'    (L91, T498, R445, B546)
+   |    |    | ['Optional TriggersGroupBox', 'Optional Triggers', 'GroupBox4']
+   |    |    | child_window(title="Optional Triggers", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'SMlevel'    (L97, T414, R147, B430)
+   |    |    | ['SMlevelStatic', 'Static22', 'SMlevel']
+   |    |    | child_window(title="SMlevel", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'DLratio (%)'    (L93, T362, R145, B378)
+   |    |    | ['DLratio (%)Static', 'DLratio (%)', 'Static23']
+   |    |    | child_window(title="DLratio (%)", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'DOlevel'    (L213, T444, R263, B460)
+   |    |    | ['DOlevelStatic', 'DOlevel', 'Static24']
+   |    |    | child_window(title="DOlevel", class_name="Static")
+   |    |    | 
+   |    |    | Static - '+msec'    (L347, T602, R393, B618)
+   |    |    | ['Static25', '+msecStatic', '+msec']
+   |    |    | child_window(title="+msec", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '-33'    (L395, T596, R435, B620)
+   |    |    | ['+msecEdit', 'Edit31']
+   |    |    | child_window(title="-33", class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - 'SO'    (L387, T660, R433, B678)
+   |    |    | ['CheckBox14', 'SO', 'SOCheckBox']
+   |    |    | child_window(title="SO", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Interlace'    (L91, T112, R181, B132)
+   |    |    | ['CheckBox15', 'InterlaceCheckBox', 'Interlace']
+   |    |    | child_window(title="Interlace", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'BottomFieldFirst'    (L185, T112, R319, B132)
+   |    |    | ['CheckBox16', 'BottomFieldFirstCheckBox', 'BottomFieldFirst']
+   |    |    | child_window(title="BottomFieldFirst", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - ') Min'    (L313, T520, R375, B536)
+   |    |    | ['CheckBox17', ') MinCheckBox', ') Min']
+   |    |    | child_window(title=") Min", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'suffix'    (L293, T174, R331, B190)
+   |    |    | ['suffix', 'Static26', 'suffixStatic']
+   |    |    | child_window(title="suffix", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '.avi'    (L331, T168, R411, B192)
+   |    |    | ['suffixEdit', 'Edit32']
+   |    |    | child_window(title=".avi", class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - '4pix'    (L267, T388, R333, B404)
+   |    |    | ['CheckBox18', '4pixCheckBox', '4pix']
+   |    |    | child_window(title="4pix", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'ignore blackout'    (L317, T338, R449, B354)
+   |    |    | ['CheckBox19', 'ignore blackout', 'ignore blackoutCheckBox']
+   |    |    | child_window(title="ignore blackout", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Fourcc'    (L321, T112, R365, B128)
+   |    |    | ['Fourcc', 'Static27', 'FourccStatic']
+   |    |    | child_window(title="Fourcc", class_name="Static")
+   |    |    | 
+   |    |    | ComboBox - 'auto'    (L369, T110, R449, B134)
+   |    |    | ['FourccComboBox2', 'ComboBox6']
+   |    |    | child_window(title="auto", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    |    |    | ['FourccEdit2', 'Edit33']
+   |    |    |    | child_window(title="auto", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    |    | ['FourccEdit2', 'Edit33']
+   |    |    | child_window(title="auto", class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L131, T60, R345, B84)
+   |    | ['VideoComboBox', 'ComboBox', 'VideoComboBox0', 'VideoComboBox1', 'ComboBox0', 'ComboBox1']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L134, T63, R321, B81)
+   |    |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L134, T63, R321, B81)
+   |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L349, T60, R419, B84)
+   |    | ['VideoComboBox2', 'ComboBox2']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L352, T63, R395, B81)
+   |    |    | ['VideoEdit2', 'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L352, T63, R395, B81)
+   |    | ['VideoEdit2', 'Edit2']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L419, T60, R449, B84)
+   |    | ['Button', 'set', 'setButton', 'Button0', 'Button1', 'set0', 'set1', 'setButton0', 'setButton1']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | ComboBox - 'NULL'    (L143, T140, R329, B164)
+   |    | ['ComboBox3', 'AudioComboBox']
+   |    | child_window(title="NULL", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    |    | ['Edit3', 'AudioEdit']
+   |    |    | child_window(title="NULL", class_name="Edit")
+   |    | 
+   |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    | ['Edit3', 'AudioEdit']
+   |    | child_window(title="NULL", class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L331, T140, R411, B164)
+   |    | ['FourccComboBox', 'ComboBox4', 'FourccComboBox0', 'FourccComboBox1']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L334, T143, R387, B161)
+   |    |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L334, T143, R387, B161)
+   |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L415, T140, R449, B164)
+   |    | ['Button2', 'set2', 'setButton2']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | Edit - '1920'    (L143, T86, R207, B110)
+   |    | ['XiEdit', 'Edit5']
+   |    | child_window(title="1920", class_name="Edit")
+   |    | 
+   |    | Edit - '1080'    (L243, T86, R307, B110)
+   |    | ['YiEdit', 'Edit6']
+   |    | child_window(title="1080", class_name="Edit")
+   |    | 
+   |    | Edit - '30.000'    (L369, T84, R447, B108)
+   |    | ['FpsEdit', 'Edit7']
+   |    | child_window(title="30.000", class_name="Edit")
+   |    | 
+   |    | ComboBox - 'AVI(uncompressed)'    (L143, T168, R287, B192)
+   |    | ['CodecComboBox', 'ComboBox5']
+   |    | child_window(title="AVI(uncompressed)", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    |    | ['CodecEdit', 'Edit8']
+   |    |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    | 
+   |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    | ['CodecEdit', 'Edit8']
+   |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L415, T170, R449, B194)
+   |    | ['Button3', 'set3', 'setButton3']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | Edit - '30'    (L187, T216, R221, B240)
+   |    | ['Edit9', 'HeadEdit']
+   |    | child_window(title="30", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L219, T216, R240, B242)
+   |    | ['UpDown', 'HeadUpDown', 'UpDown0', 'UpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'Tail'    (L255, T220, R279, B238)
+   |    | ['TailStatic', 'Tail', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="Tail", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L319, T216, R340, B242)
+   |    | ['UpDown2', 'TailUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '1'    (L383, T216, R413, B240)
+   |    | ['DiffEdit', 'Edit10']
+   |    | child_window(title="1", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L417, T216, R438, B242)
+   |    | ['setUpDown', 'UpDown3']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - 'DA-ALL.bmp'    (L187, T278, R357, B302)
+   |    | ['Edit11', 'Detect AreaEdit']
+   |    | child_window(title="DA-ALL.bmp", class_name="Edit")
+   |    | 
+   |    | Button - '....'    (L361, T276, R393, B300)
+   |    | ['....Button', '....', 'Button4']
+   |    | child_window(title="....", class_name="Button")
+   |    | 
+   |    | Button - 'Edit'    (L395, T276, R439, B300)
+   |    | ['EditButton', 'Edit12', 'Button5']
+   |    | child_window(title="Edit", class_name="Button")
+   |    | 
+   |    | Edit - '2'    (L153, T304, R181, B328)
+   |    | ['Min(frm)Edit', 'Edit13']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | Edit - '0'    (L267, T304, R301, B328)
+   |    | ['Edit14', 'Max(sec)Edit']
+   |    | child_window(title="0", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T304, R322, B330)
+   |    | ['UpDown4', 'Max(sec)UpDown', 'Max(sec)UpDown0', 'Max(sec)UpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '100'    (L379, T304, R417, B328)
+   |    | ['EXsizeEdit', 'Edit15']
+   |    | child_window(title="100", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T304, R440, B330)
+   |    | ['EditUpDown', 'UpDown5']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Detect Level Noise Tracking'    (L99, T338, R305, B358)
+   |    | ['CheckBox', 'Detect Level Noise Tracking', 'Detect Level Noise TrackingCheckBox', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="Detect Level Noise Tracking", class_name="Button")
+   |    | 
+   |    | Edit - '110'    (L153, T356, R193, B380)
+   |    | ['Edit16', 'DLratio (%)Edit']
+   |    | child_window(title="110", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L191, T356, R212, B382)
+   |    | ['UpDown6', 'Max(sec)UpDown2']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '4'    (L267, T356, R301, B380)
+   |    | ['MinDLEdit', 'Edit17']
+   |    | child_window(title="4", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T358, R322, B384)
+   |    | ['ignore blackoutUpDown', 'UpDown7', 'ignore blackoutUpDown0', 'ignore blackoutUpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '10'    (L379, T358, R417, B382)
+   |    | ['MinL-NEdit', 'Edit18']
+   |    | child_window(title="10", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T358, R440, B384)
+   |    | ['ignore blackoutUpDown2', 'UpDown8']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Scintillation Mask'    (L99, T388, R231, B404)
+   |    | ['CheckBox2', 'Scintillation MaskCheckBox', 'Scintillation Mask']
+   |    | child_window(title="Scintillation Mask", class_name="Button")
+   |    | 
+   |    | Edit - '110'    (L149, T412, R187, B436)
+   |    | ['SMlevelEdit', 'Edit19']
+   |    | child_window(title="110", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L185, T410, R206, B436)
+   |    | ['SMspeedUpDown', 'UpDown9', 'SMspeedUpDown0', 'SMspeedUpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '2'    (L267, T412, R301, B436)
+   |    | ['SMspeedEdit', 'Edit20']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T412, R322, B438)
+   |    | ['SMspeedUpDown2', 'UpDown10']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'SMsize'    (L327, T414, R371, B430)
+   |    | ['Static2', 'SMsize', 'SMsizeStatic']
+   |    | child_window(title="SMsize", class_name="Static")
+   |    | 
+   |    | Edit - '8'    (L379, T410, R417, B434)
+   |    | ['SMsizeEdit', 'Edit21']
+   |    | child_window(title="8", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T412, R440, B438)
+   |    | ['SMsizeUpDown', 'UpDown11']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'DarkObjMask'    (L99, T444, R207, B460)
+   |    | ['CheckBox3', 'DarkObjMaskCheckBox', 'DarkObjMask']
+   |    | child_window(title="DarkObjMask", class_name="Button")
+   |    | 
+   |    | Edit - '2'    (L267, T438, R301, B462)
+   |    | ['DOlevelEdit', 'Edit22']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T438, R322, B464)
+   |    | ['DOlevelUpDown', 'UpDown12']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'SlowObjMask   Pix/s'    (L99, T468, R267, B486)
+   |    | ['CheckBox4', 'SlowObjMask   Pix/s', 'SlowObjMask   Pix/sCheckBox']
+   |    | child_window(title="SlowObjMask   Pix/s", class_name="Button")
+   |    | 
+   |    | Edit - '36'    (L267, T466, R301, B490)
+   |    | ['Edit23', 'SlowObjMask   Pix/sEdit']
+   |    | child_window(title="36", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T464, R322, B490)
+   |    | ['UpDown13', 'SlowObjMask   Pix/sUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'SOsize'    (L329, T470, R377, B490)
+   |    | ['SOsize', 'Static3', 'SOsizeStatic']
+   |    | child_window(title="SOsize", class_name="Static")
+   |    | 
+   |    | Edit - '36'    (L379, T466, R417, B490)
+   |    | ['SOsizeEdit', 'Edit24']
+   |    | child_window(title="36", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T466, R440, B492)
+   |    | ['SOsizeUpDown', 'UpDown14']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Audio'    (L99, T520, R161, B536)
+   |    | ['CheckBox5', 'Audio', 'AudioCheckBox', 'Audio0', 'Audio1']
+   |    | child_window(title="Audio", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Interval (still only'    (L169, T520, R311, B536)
+   |    | ['CheckBox6', 'Interval (still only', 'Interval (still onlyCheckBox']
+   |    | child_window(title="Interval (still only", class_name="Button")
+   |    | 
+   |    | Edit - '60'    (L379, T516, R417, B540)
+   |    | [') MinEdit', 'Edit25']
+   |    | child_window(title="60", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L417, T516, R438, B538)
+   |    | ['UpDown15', 'Optional TriggersUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '%T%m %F%X %L %i %I UFOCaptureHD2'    (L151, T568, R435, B592)
+   |    | ['FormatEdit', 'Edit26']
+   |    | child_window(title="%T%m %F%X %L %i %I UFOCaptureHD2", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'On'    (L99, T600, R143, B620)
+   |    | ['CheckBox7', 'On', 'OnCheckBox']
+   |    | child_window(title="On", class_name="Button")
+   |    | 
+   |    | RadioButton - 's'    (L139, T600, R171, B618)
+   |    | ['s', 'sRadioButton', 'RadioButton', 'RadioButton0', 'RadioButton1']
+   |    | child_window(title="s", class_name="Button")
+   |    | 
+   |    | RadioButton - 'm'    (L171, T600, R205, B618)
+   |    | ['mRadioButton', 'RadioButton2', 'm']
+   |    | child_window(title="m", class_name="Button")
+   |    | 
+   |    | RadioButton - 'l'    (L207, T600, R243, B618)
+   |    | ['lRadioButton', 'RadioButton3', 'l']
+   |    | child_window(title="l", class_name="Button")
+   |    | 
+   |    | Edit - '1'    (L287, T596, R323, B620)
+   |    | ['Edit27', 'Y-PosEdit']
+   |    | child_window(title="1", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L323, T596, R344, B622)
+   |    | ['Y-PosUpDown', 'UpDown16']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'UTC'    (L99, T632, R153, B652)
+   |    | ['CheckBox8', 'UTCCheckBox', 'UTC']
+   |    | child_window(title="UTC", class_name="Button")
+   |    | 
+   |    | CheckBox - 'ChangeDate'    (L199, T632, R301, B652)
+   |    | ['CheckBox9', 'ChangeDate', 'ChangeDateCheckBox']
+   |    | child_window(title="ChangeDate", class_name="Button")
+   |    | 
+   |    | Edit - '20111231_235959'    (L307, T632, R435, B656)
+   |    | ['ChangeDateEdit', 'Edit28']
+   |    | child_window(title="20111231_235959", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'Area'    (L177, T660, R239, B680)
+   |    | ['CheckBox10', 'AreaCheckBox', 'Area']
+   |    | child_window(title="Area", class_name="Button")
+   |    | 
+   |    | CheckBox - 'SMw'    (L245, T660, R299, B680)
+   |    | ['CheckBox11', 'SMwCheckBox', 'SMw']
+   |    | child_window(title="SMw", class_name="Button")
+   |    | 
+   |    | CheckBox - 'SMb'    (L311, T660, R369, B680)
+   |    | ['CheckBox12', 'SMbCheckBox', 'SMb']
+   |    | child_window(title="SMb", class_name="Button")
+   |    | 
+   |    | Static - 'Video'    (L91, T66, R127, B82)
+   |    | ['VideoStatic', 'Static4', 'Video']
+   |    | child_window(title="Video", class_name="Static")
+   |    | 
+   |    | Static - 'Audio'    (L91, T146, R129, B162)
+   |    | ['Audio2', 'AudioStatic', 'Static5', 'AudioStatic0', 'AudioStatic1']
+   |    | child_window(title="Audio", class_name="Static")
+   |    | 
+   |    | Static - 'Codec'    (L91, T174, R133, B190)
+   |    | ['CodecStatic', 'Codec', 'Static6']
+   |    | child_window(title="Codec", class_name="Static")
+   |    | 
+   |    | Static - 'Xi'    (L121, T88, R137, B104)
+   |    | ['Static7', 'XiStatic', 'Xi']
+   |    | child_window(title="Xi", class_name="Static")
+   |    | 
+   |    | Static - 'Fps'    (L333, T86, R355, B104)
+   |    | ['FpsStatic', 'Static8', 'Fps']
+   |    | child_window(title="Fps", class_name="Static")
+   |    | 
+   |    | Static - 'Head'    (L143, T220, R179, B236)
+   |    | ['Head', 'Static9', 'HeadStatic']
+   |    | child_window(title="Head", class_name="Static")
+   |    | 
+   |    | Static - 'Diff'    (L351, T220, R375, B242)
+   |    | ['Diff', 'Static10', 'DiffStatic']
+   |    | child_window(title="Diff", class_name="Static")
+   |    | 
+   |    | Edit - '30'    (L291, T216, R321, B240)
+   |    | ['TailEdit', 'Edit29']
+   |    | child_window(title="30", class_name="Edit")
+   |    | 
+   |    | GroupBox - 'Frame Shift'    (L91, T200, R443, B252)
+   |    | ['Frame ShiftGroupBox', 'Frame Shift', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    | child_window(title="Frame Shift", class_name="Button")
+   |    | 
+   |    | Static - 'Y-Pos'    (L245, T604, R285, B620)
+   |    | ['Static11', 'Y-Pos', 'Y-PosStatic']
+   |    | child_window(title="Y-Pos", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Super Impose'    (L91, T548, R445, B686)
+   |    | ['Super Impose', 'GroupBox2', 'Super ImposeGroupBox']
+   |    | child_window(title="Super Impose", class_name="Button")
+   |    | 
+   |    | Static - 'Min(frm)'    (L93, T310, R153, B326)
+   |    | ['Min(frm)Static', 'Min(frm)', 'Static12']
+   |    | child_window(title="Min(frm)", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L181, T304, R202, B330)
+   |    | ['Detect AreaUpDown', 'UpDown17', 'Min(frm)UpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'EXsize'    (L325, T310, R375, B326)
+   |    | ['EXsize', 'Static13', 'EXsizeStatic']
+   |    | child_window(title="EXsize", class_name="Static")
+   |    | 
+   |    | Static - 'Max(sec)'    (L205, T310, R265, B326)
+   |    | ['Max(sec)Static', 'Static14', 'Max(sec)']
+   |    | child_window(title="Max(sec)", class_name="Static")
+   |    | 
+   |    | Static - 'MinL-N'    (L327, T362, R371, B378)
+   |    | ['MinL-N', 'MinL-NStatic', 'Static15']
+   |    | child_window(title="MinL-N", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Video Trigger'    (L91, T256, R447, B496)
+   |    | ['Video Trigger', 'Video TriggerGroupBox', 'GroupBox3']
+   |    | child_window(title="Video Trigger", class_name="Button")
+   |    | 
+   |    | Static - 'Detect Area'    (L95, T284, R175, B300)
+   |    | ['Detect Area', 'Static16', 'Detect AreaStatic']
+   |    | child_window(title="Detect Area", class_name="Static")
+   |    | 
+   |    | Static - 'Format'    (L95, T568, R147, B584)
+   |    | ['Format', 'Static17', 'FormatStatic']
+   |    | child_window(title="Format", class_name="Static")
+   |    | 
+   |    | Static - 'Yi'    (L223, T88, R239, B104)
+   |    | ['Yi', 'YiStatic', 'Static18']
+   |    | child_window(title="Yi", class_name="Static")
+   |    | 
+   |    | Static - 'Preview opt'    (L97, T660, R175, B676)
+   |    | ['Preview optStatic', 'Preview opt', 'Static19']
+   |    | child_window(title="Preview opt", class_name="Static")
+   |    | 
+   |    | Static - 'SMspeed'    (L205, T414, R263, B430)
+   |    | ['SMspeedStatic', 'Static20', 'SMspeed']
+   |    | child_window(title="SMspeed", class_name="Static")
+   |    | 
+   |    | CheckBox - 'File input'    (L99, T698, R189, B718)
+   |    | ['CheckBox13', 'File inputCheckBox', 'File input']
+   |    | child_window(title="File input", class_name="Button")
+   |    | 
+   |    | Edit - 'C:\Users\micha\Documents'    (L189, T696, R385, B720)
+   |    | ['AreaEdit', 'Edit30']
+   |    | child_window(title="C:\Users\micha\Documents", class_name="Edit")
+   |    | 
+   |    | Button - '...'    (L393, T700, R419, B718)
+   |    | ['...Button', '...', 'Button6']
+   |    | child_window(title="...", class_name="Button")
+   |    | 
+   |    | Static - 'MinDL'    (L217, T362, R261, B378)
+   |    | ['MinDLStatic', 'Static21', 'MinDL']
+   |    | child_window(title="MinDL", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Optional Triggers'    (L91, T498, R445, B546)
+   |    | ['Optional TriggersGroupBox', 'Optional Triggers', 'GroupBox4']
+   |    | child_window(title="Optional Triggers", class_name="Button")
+   |    | 
+   |    | Static - 'SMlevel'    (L97, T414, R147, B430)
+   |    | ['SMlevelStatic', 'Static22', 'SMlevel']
+   |    | child_window(title="SMlevel", class_name="Static")
+   |    | 
+   |    | Static - 'DLratio (%)'    (L93, T362, R145, B378)
+   |    | ['DLratio (%)Static', 'DLratio (%)', 'Static23']
+   |    | child_window(title="DLratio (%)", class_name="Static")
+   |    | 
+   |    | Static - 'DOlevel'    (L213, T444, R263, B460)
+   |    | ['DOlevelStatic', 'DOlevel', 'Static24']
+   |    | child_window(title="DOlevel", class_name="Static")
+   |    | 
+   |    | Static - '+msec'    (L347, T602, R393, B618)
+   |    | ['Static25', '+msecStatic', '+msec']
+   |    | child_window(title="+msec", class_name="Static")
+   |    | 
+   |    | Edit - '-33'    (L395, T596, R435, B620)
+   |    | ['+msecEdit', 'Edit31']
+   |    | child_window(title="-33", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'SO'    (L387, T660, R433, B678)
+   |    | ['CheckBox14', 'SO', 'SOCheckBox']
+   |    | child_window(title="SO", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Interlace'    (L91, T112, R181, B132)
+   |    | ['CheckBox15', 'InterlaceCheckBox', 'Interlace']
+   |    | child_window(title="Interlace", class_name="Button")
+   |    | 
+   |    | CheckBox - 'BottomFieldFirst'    (L185, T112, R319, B132)
+   |    | ['CheckBox16', 'BottomFieldFirstCheckBox', 'BottomFieldFirst']
+   |    | child_window(title="BottomFieldFirst", class_name="Button")
+   |    | 
+   |    | CheckBox - ') Min'    (L313, T520, R375, B536)
+   |    | ['CheckBox17', ') MinCheckBox', ') Min']
+   |    | child_window(title=") Min", class_name="Button")
+   |    | 
+   |    | Static - 'suffix'    (L293, T174, R331, B190)
+   |    | ['suffix', 'Static26', 'suffixStatic']
+   |    | child_window(title="suffix", class_name="Static")
+   |    | 
+   |    | Edit - '.avi'    (L331, T168, R411, B192)
+   |    | ['suffixEdit', 'Edit32']
+   |    | child_window(title=".avi", class_name="Edit")
+   |    | 
+   |    | CheckBox - '4pix'    (L267, T388, R333, B404)
+   |    | ['CheckBox18', '4pixCheckBox', '4pix']
+   |    | child_window(title="4pix", class_name="Button")
+   |    | 
+   |    | CheckBox - 'ignore blackout'    (L317, T338, R449, B354)
+   |    | ['CheckBox19', 'ignore blackout', 'ignore blackoutCheckBox']
+   |    | child_window(title="ignore blackout", class_name="Button")
+   |    | 
+   |    | Static - 'Fourcc'    (L321, T112, R365, B128)
+   |    | ['Fourcc', 'Static27', 'FourccStatic']
+   |    | child_window(title="Fourcc", class_name="Static")
+   |    | 
+   |    | ComboBox - 'auto'    (L369, T110, R449, B134)
+   |    | ['FourccComboBox2', 'ComboBox6']
+   |    | child_window(title="auto", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    |    | ['FourccEdit2', 'Edit33']
+   |    |    | child_window(title="auto", class_name="Edit")
+   |    | 
+   |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    | ['FourccEdit2', 'Edit33']
+   |    | child_window(title="auto", class_name="Edit")
+   |    | 
+   |    | Button - 'OK'    (L289, T750, R389, B778)
+   |    | ['OK', 'Button7', 'OKButton', 'OK0', 'OK1', 'OKButton0', 'OKButton1']
+   |    | child_window(title="OK", class_name="Button")
+   |    | 
+   |    | Button - 'Cancel'    (L397, T750, R497, B778)
+   |    | ['Button8', 'CancelButton', 'Cancel', 'CancelButton0', 'CancelButton1', 'Cancel0', 'Cancel1']
+   |    | child_window(title="Cancel", class_name="Button")
+   |    | 
+   |    | Button - '&Apply'    (L505, T750, R605, B778)
+   |    | ['&ApplyButton', '&Apply', 'Button9', '&ApplyButton0', '&ApplyButton1', '&Apply0', '&Apply1']
+   |    | child_window(title="&Apply", class_name="Button")
+   |    | 
+   |    | Button - 'Help'    (L613, T750, R713, B778)
+   |    | ['HelpButton', 'Help', 'Button10', 'HelpButton0', 'HelpButton1', 'Help0', 'Help1']
+   |    | child_window(title="Help", class_name="Button")
+   |    | 
+   |    | TabControl - ''    (L87, T31, R630, B1080)
+   |    | ['TabControlDB', 'VideoTabControl', 'TabControlInput', 'TabControl', 'TabControlProfile', 'TabControlOperation', 'TabControl0', 'TabControl1']
+   |    | child_window(class_name="SysTabControl32")
+   | 
+   | #32770 - 'Input'    (L91, T56, R626, B1076)
+   | ['#327702', 'Input#32770', 'Input']
+   | child_window(title="Input", class_name="#32770")
+   |    | 
+   |    | ComboBox - ''    (L131, T60, R345, B84)
+   |    | ['VideoComboBox', 'ComboBox', 'VideoComboBox0', 'VideoComboBox1', 'ComboBox0', 'ComboBox1']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L134, T63, R321, B81)
+   |    |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L134, T63, R321, B81)
+   |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L349, T60, R419, B84)
+   |    | ['VideoComboBox2', 'ComboBox2']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L352, T63, R395, B81)
+   |    |    | ['VideoEdit2', 'Edit2']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L352, T63, R395, B81)
+   |    | ['VideoEdit2', 'Edit2']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L419, T60, R449, B84)
+   |    | ['Button', 'set', 'setButton', 'Button0', 'Button1', 'set0', 'set1', 'setButton0', 'setButton1']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | ComboBox - 'NULL'    (L143, T140, R329, B164)
+   |    | ['ComboBox3', 'AudioComboBox']
+   |    | child_window(title="NULL", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    |    | ['Edit3', 'AudioEdit']
+   |    |    | child_window(title="NULL", class_name="Edit")
+   |    | 
+   |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    | ['Edit3', 'AudioEdit']
+   |    | child_window(title="NULL", class_name="Edit")
+   |    | 
+   |    | ComboBox - ''    (L331, T140, R411, B164)
+   |    | ['FourccComboBox', 'ComboBox4', 'FourccComboBox0', 'FourccComboBox1']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L334, T143, R387, B161)
+   |    |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L334, T143, R387, B161)
+   |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L415, T140, R449, B164)
+   |    | ['Button2', 'set2', 'setButton2']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | Edit - '1920'    (L143, T86, R207, B110)
+   |    | ['XiEdit', 'Edit5']
+   |    | child_window(title="1920", class_name="Edit")
+   |    | 
+   |    | Edit - '1080'    (L243, T86, R307, B110)
+   |    | ['YiEdit', 'Edit6']
+   |    | child_window(title="1080", class_name="Edit")
+   |    | 
+   |    | Edit - '30.000'    (L369, T84, R447, B108)
+   |    | ['FpsEdit', 'Edit7']
+   |    | child_window(title="30.000", class_name="Edit")
+   |    | 
+   |    | ComboBox - 'AVI(uncompressed)'    (L143, T168, R287, B192)
+   |    | ['CodecComboBox', 'ComboBox5']
+   |    | child_window(title="AVI(uncompressed)", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    |    | ['CodecEdit', 'Edit8']
+   |    |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    | 
+   |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    | ['CodecEdit', 'Edit8']
+   |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   |    | 
+   |    | Button - 'set'    (L415, T170, R449, B194)
+   |    | ['Button3', 'set3', 'setButton3']
+   |    | child_window(title="set", class_name="Button")
+   |    | 
+   |    | Edit - '30'    (L187, T216, R221, B240)
+   |    | ['Edit9', 'HeadEdit']
+   |    | child_window(title="30", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L219, T216, R240, B242)
+   |    | ['UpDown', 'HeadUpDown', 'UpDown0', 'UpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'Tail'    (L255, T220, R279, B238)
+   |    | ['TailStatic', 'Tail', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="Tail", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L319, T216, R340, B242)
+   |    | ['UpDown2', 'TailUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '1'    (L383, T216, R413, B240)
+   |    | ['DiffEdit', 'Edit10']
+   |    | child_window(title="1", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L417, T216, R438, B242)
+   |    | ['setUpDown', 'UpDown3']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - 'DA-ALL.bmp'    (L187, T278, R357, B302)
+   |    | ['Edit11', 'Detect AreaEdit']
+   |    | child_window(title="DA-ALL.bmp", class_name="Edit")
+   |    | 
+   |    | Button - '....'    (L361, T276, R393, B300)
+   |    | ['....Button', '....', 'Button4']
+   |    | child_window(title="....", class_name="Button")
+   |    | 
+   |    | Button - 'Edit'    (L395, T276, R439, B300)
+   |    | ['EditButton', 'Edit12', 'Button5']
+   |    | child_window(title="Edit", class_name="Button")
+   |    | 
+   |    | Edit - '2'    (L153, T304, R181, B328)
+   |    | ['Min(frm)Edit', 'Edit13']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | Edit - '0'    (L267, T304, R301, B328)
+   |    | ['Edit14', 'Max(sec)Edit']
+   |    | child_window(title="0", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T304, R322, B330)
+   |    | ['UpDown4', 'Max(sec)UpDown', 'Max(sec)UpDown0', 'Max(sec)UpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '100'    (L379, T304, R417, B328)
+   |    | ['EXsizeEdit', 'Edit15']
+   |    | child_window(title="100", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T304, R440, B330)
+   |    | ['EditUpDown', 'UpDown5']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Detect Level Noise Tracking'    (L99, T338, R305, B358)
+   |    | ['CheckBox', 'Detect Level Noise Tracking', 'Detect Level Noise TrackingCheckBox', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="Detect Level Noise Tracking", class_name="Button")
+   |    | 
+   |    | Edit - '110'    (L153, T356, R193, B380)
+   |    | ['Edit16', 'DLratio (%)Edit']
+   |    | child_window(title="110", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L191, T356, R212, B382)
+   |    | ['UpDown6', 'Max(sec)UpDown2']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '4'    (L267, T356, R301, B380)
+   |    | ['MinDLEdit', 'Edit17']
+   |    | child_window(title="4", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T358, R322, B384)
+   |    | ['ignore blackoutUpDown', 'UpDown7', 'ignore blackoutUpDown0', 'ignore blackoutUpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '10'    (L379, T358, R417, B382)
+   |    | ['MinL-NEdit', 'Edit18']
+   |    | child_window(title="10", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T358, R440, B384)
+   |    | ['ignore blackoutUpDown2', 'UpDown8']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Scintillation Mask'    (L99, T388, R231, B404)
+   |    | ['CheckBox2', 'Scintillation MaskCheckBox', 'Scintillation Mask']
+   |    | child_window(title="Scintillation Mask", class_name="Button")
+   |    | 
+   |    | Edit - '110'    (L149, T412, R187, B436)
+   |    | ['SMlevelEdit', 'Edit19']
+   |    | child_window(title="110", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L185, T410, R206, B436)
+   |    | ['SMspeedUpDown', 'UpDown9', 'SMspeedUpDown0', 'SMspeedUpDown1']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '2'    (L267, T412, R301, B436)
+   |    | ['SMspeedEdit', 'Edit20']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T412, R322, B438)
+   |    | ['SMspeedUpDown2', 'UpDown10']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'SMsize'    (L327, T414, R371, B430)
+   |    | ['Static2', 'SMsize', 'SMsizeStatic']
+   |    | child_window(title="SMsize", class_name="Static")
+   |    | 
+   |    | Edit - '8'    (L379, T410, R417, B434)
+   |    | ['SMsizeEdit', 'Edit21']
+   |    | child_window(title="8", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T412, R440, B438)
+   |    | ['SMsizeUpDown', 'UpDown11']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'DarkObjMask'    (L99, T444, R207, B460)
+   |    | ['CheckBox3', 'DarkObjMaskCheckBox', 'DarkObjMask']
+   |    | child_window(title="DarkObjMask", class_name="Button")
+   |    | 
+   |    | Edit - '2'    (L267, T438, R301, B462)
+   |    | ['DOlevelEdit', 'Edit22']
+   |    | child_window(title="2", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T438, R322, B464)
+   |    | ['DOlevelUpDown', 'UpDown12']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'SlowObjMask   Pix/s'    (L99, T468, R267, B486)
+   |    | ['CheckBox4', 'SlowObjMask   Pix/s', 'SlowObjMask   Pix/sCheckBox']
+   |    | child_window(title="SlowObjMask   Pix/s", class_name="Button")
+   |    | 
+   |    | Edit - '36'    (L267, T466, R301, B490)
+   |    | ['Edit23', 'SlowObjMask   Pix/sEdit']
+   |    | child_window(title="36", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L301, T464, R322, B490)
+   |    | ['UpDown13', 'SlowObjMask   Pix/sUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'SOsize'    (L329, T470, R377, B490)
+   |    | ['SOsize', 'Static3', 'SOsizeStatic']
+   |    | child_window(title="SOsize", class_name="Static")
+   |    | 
+   |    | Edit - '36'    (L379, T466, R417, B490)
+   |    | ['SOsizeEdit', 'Edit24']
+   |    | child_window(title="36", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L419, T466, R440, B492)
+   |    | ['SOsizeUpDown', 'UpDown14']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'Audio'    (L99, T520, R161, B536)
+   |    | ['CheckBox5', 'Audio', 'AudioCheckBox', 'Audio0', 'Audio1']
+   |    | child_window(title="Audio", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Interval (still only'    (L169, T520, R311, B536)
+   |    | ['CheckBox6', 'Interval (still only', 'Interval (still onlyCheckBox']
+   |    | child_window(title="Interval (still only", class_name="Button")
+   |    | 
+   |    | Edit - '60'    (L379, T516, R417, B540)
+   |    | [') MinEdit', 'Edit25']
+   |    | child_window(title="60", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L417, T516, R438, B538)
+   |    | ['UpDown15', 'Optional TriggersUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '%T%m %F%X %L %i %I UFOCaptureHD2'    (L151, T568, R435, B592)
+   |    | ['FormatEdit', 'Edit26']
+   |    | child_window(title="%T%m %F%X %L %i %I UFOCaptureHD2", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'On'    (L99, T600, R143, B620)
+   |    | ['CheckBox7', 'On', 'OnCheckBox']
+   |    | child_window(title="On", class_name="Button")
+   |    | 
+   |    | RadioButton - 's'    (L139, T600, R171, B618)
+   |    | ['s', 'sRadioButton', 'RadioButton', 'RadioButton0', 'RadioButton1']
+   |    | child_window(title="s", class_name="Button")
+   |    | 
+   |    | RadioButton - 'm'    (L171, T600, R205, B618)
+   |    | ['mRadioButton', 'RadioButton2', 'm']
+   |    | child_window(title="m", class_name="Button")
+   |    | 
+   |    | RadioButton - 'l'    (L207, T600, R243, B618)
+   |    | ['lRadioButton', 'RadioButton3', 'l']
+   |    | child_window(title="l", class_name="Button")
+   |    | 
+   |    | Edit - '1'    (L287, T596, R323, B620)
+   |    | ['Edit27', 'Y-PosEdit']
+   |    | child_window(title="1", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L323, T596, R344, B622)
+   |    | ['Y-PosUpDown', 'UpDown16']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | CheckBox - 'UTC'    (L99, T632, R153, B652)
+   |    | ['CheckBox8', 'UTCCheckBox', 'UTC']
+   |    | child_window(title="UTC", class_name="Button")
+   |    | 
+   |    | CheckBox - 'ChangeDate'    (L199, T632, R301, B652)
+   |    | ['CheckBox9', 'ChangeDate', 'ChangeDateCheckBox']
+   |    | child_window(title="ChangeDate", class_name="Button")
+   |    | 
+   |    | Edit - '20111231_235959'    (L307, T632, R435, B656)
+   |    | ['ChangeDateEdit', 'Edit28']
+   |    | child_window(title="20111231_235959", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'Area'    (L177, T660, R239, B680)
+   |    | ['CheckBox10', 'AreaCheckBox', 'Area']
+   |    | child_window(title="Area", class_name="Button")
+   |    | 
+   |    | CheckBox - 'SMw'    (L245, T660, R299, B680)
+   |    | ['CheckBox11', 'SMwCheckBox', 'SMw']
+   |    | child_window(title="SMw", class_name="Button")
+   |    | 
+   |    | CheckBox - 'SMb'    (L311, T660, R369, B680)
+   |    | ['CheckBox12', 'SMbCheckBox', 'SMb']
+   |    | child_window(title="SMb", class_name="Button")
+   |    | 
+   |    | Static - 'Video'    (L91, T66, R127, B82)
+   |    | ['VideoStatic', 'Static4', 'Video']
+   |    | child_window(title="Video", class_name="Static")
+   |    | 
+   |    | Static - 'Audio'    (L91, T146, R129, B162)
+   |    | ['Audio2', 'AudioStatic', 'Static5', 'AudioStatic0', 'AudioStatic1']
+   |    | child_window(title="Audio", class_name="Static")
+   |    | 
+   |    | Static - 'Codec'    (L91, T174, R133, B190)
+   |    | ['CodecStatic', 'Codec', 'Static6']
+   |    | child_window(title="Codec", class_name="Static")
+   |    | 
+   |    | Static - 'Xi'    (L121, T88, R137, B104)
+   |    | ['Static7', 'XiStatic', 'Xi']
+   |    | child_window(title="Xi", class_name="Static")
+   |    | 
+   |    | Static - 'Fps'    (L333, T86, R355, B104)
+   |    | ['FpsStatic', 'Static8', 'Fps']
+   |    | child_window(title="Fps", class_name="Static")
+   |    | 
+   |    | Static - 'Head'    (L143, T220, R179, B236)
+   |    | ['Head', 'Static9', 'HeadStatic']
+   |    | child_window(title="Head", class_name="Static")
+   |    | 
+   |    | Static - 'Diff'    (L351, T220, R375, B242)
+   |    | ['Diff', 'Static10', 'DiffStatic']
+   |    | child_window(title="Diff", class_name="Static")
+   |    | 
+   |    | Edit - '30'    (L291, T216, R321, B240)
+   |    | ['TailEdit', 'Edit29']
+   |    | child_window(title="30", class_name="Edit")
+   |    | 
+   |    | GroupBox - 'Frame Shift'    (L91, T200, R443, B252)
+   |    | ['Frame ShiftGroupBox', 'Frame Shift', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    | child_window(title="Frame Shift", class_name="Button")
+   |    | 
+   |    | Static - 'Y-Pos'    (L245, T604, R285, B620)
+   |    | ['Static11', 'Y-Pos', 'Y-PosStatic']
+   |    | child_window(title="Y-Pos", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Super Impose'    (L91, T548, R445, B686)
+   |    | ['Super Impose', 'GroupBox2', 'Super ImposeGroupBox']
+   |    | child_window(title="Super Impose", class_name="Button")
+   |    | 
+   |    | Static - 'Min(frm)'    (L93, T310, R153, B326)
+   |    | ['Min(frm)Static', 'Min(frm)', 'Static12']
+   |    | child_window(title="Min(frm)", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L181, T304, R202, B330)
+   |    | ['Detect AreaUpDown', 'UpDown17', 'Min(frm)UpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Static - 'EXsize'    (L325, T310, R375, B326)
+   |    | ['EXsize', 'Static13', 'EXsizeStatic']
+   |    | child_window(title="EXsize", class_name="Static")
+   |    | 
+   |    | Static - 'Max(sec)'    (L205, T310, R265, B326)
+   |    | ['Max(sec)Static', 'Static14', 'Max(sec)']
+   |    | child_window(title="Max(sec)", class_name="Static")
+   |    | 
+   |    | Static - 'MinL-N'    (L327, T362, R371, B378)
+   |    | ['MinL-N', 'MinL-NStatic', 'Static15']
+   |    | child_window(title="MinL-N", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Video Trigger'    (L91, T256, R447, B496)
+   |    | ['Video Trigger', 'Video TriggerGroupBox', 'GroupBox3']
+   |    | child_window(title="Video Trigger", class_name="Button")
+   |    | 
+   |    | Static - 'Detect Area'    (L95, T284, R175, B300)
+   |    | ['Detect Area', 'Static16', 'Detect AreaStatic']
+   |    | child_window(title="Detect Area", class_name="Static")
+   |    | 
+   |    | Static - 'Format'    (L95, T568, R147, B584)
+   |    | ['Format', 'Static17', 'FormatStatic']
+   |    | child_window(title="Format", class_name="Static")
+   |    | 
+   |    | Static - 'Yi'    (L223, T88, R239, B104)
+   |    | ['Yi', 'YiStatic', 'Static18']
+   |    | child_window(title="Yi", class_name="Static")
+   |    | 
+   |    | Static - 'Preview opt'    (L97, T660, R175, B676)
+   |    | ['Preview optStatic', 'Preview opt', 'Static19']
+   |    | child_window(title="Preview opt", class_name="Static")
+   |    | 
+   |    | Static - 'SMspeed'    (L205, T414, R263, B430)
+   |    | ['SMspeedStatic', 'Static20', 'SMspeed']
+   |    | child_window(title="SMspeed", class_name="Static")
+   |    | 
+   |    | CheckBox - 'File input'    (L99, T698, R189, B718)
+   |    | ['CheckBox13', 'File inputCheckBox', 'File input']
+   |    | child_window(title="File input", class_name="Button")
+   |    | 
+   |    | Edit - 'C:\Users\micha\Documents'    (L189, T696, R385, B720)
+   |    | ['AreaEdit', 'Edit30']
+   |    | child_window(title="C:\Users\micha\Documents", class_name="Edit")
+   |    | 
+   |    | Button - '...'    (L393, T700, R419, B718)
+   |    | ['...Button', '...', 'Button6']
+   |    | child_window(title="...", class_name="Button")
+   |    | 
+   |    | Static - 'MinDL'    (L217, T362, R261, B378)
+   |    | ['MinDLStatic', 'Static21', 'MinDL']
+   |    | child_window(title="MinDL", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Optional Triggers'    (L91, T498, R445, B546)
+   |    | ['Optional TriggersGroupBox', 'Optional Triggers', 'GroupBox4']
+   |    | child_window(title="Optional Triggers", class_name="Button")
+   |    | 
+   |    | Static - 'SMlevel'    (L97, T414, R147, B430)
+   |    | ['SMlevelStatic', 'Static22', 'SMlevel']
+   |    | child_window(title="SMlevel", class_name="Static")
+   |    | 
+   |    | Static - 'DLratio (%)'    (L93, T362, R145, B378)
+   |    | ['DLratio (%)Static', 'DLratio (%)', 'Static23']
+   |    | child_window(title="DLratio (%)", class_name="Static")
+   |    | 
+   |    | Static - 'DOlevel'    (L213, T444, R263, B460)
+   |    | ['DOlevelStatic', 'DOlevel', 'Static24']
+   |    | child_window(title="DOlevel", class_name="Static")
+   |    | 
+   |    | Static - '+msec'    (L347, T602, R393, B618)
+   |    | ['Static25', '+msecStatic', '+msec']
+   |    | child_window(title="+msec", class_name="Static")
+   |    | 
+   |    | Edit - '-33'    (L395, T596, R435, B620)
+   |    | ['+msecEdit', 'Edit31']
+   |    | child_window(title="-33", class_name="Edit")
+   |    | 
+   |    | CheckBox - 'SO'    (L387, T660, R433, B678)
+   |    | ['CheckBox14', 'SO', 'SOCheckBox']
+   |    | child_window(title="SO", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Interlace'    (L91, T112, R181, B132)
+   |    | ['CheckBox15', 'InterlaceCheckBox', 'Interlace']
+   |    | child_window(title="Interlace", class_name="Button")
+   |    | 
+   |    | CheckBox - 'BottomFieldFirst'    (L185, T112, R319, B132)
+   |    | ['CheckBox16', 'BottomFieldFirstCheckBox', 'BottomFieldFirst']
+   |    | child_window(title="BottomFieldFirst", class_name="Button")
+   |    | 
+   |    | CheckBox - ') Min'    (L313, T520, R375, B536)
+   |    | ['CheckBox17', ') MinCheckBox', ') Min']
+   |    | child_window(title=") Min", class_name="Button")
+   |    | 
+   |    | Static - 'suffix'    (L293, T174, R331, B190)
+   |    | ['suffix', 'Static26', 'suffixStatic']
+   |    | child_window(title="suffix", class_name="Static")
+   |    | 
+   |    | Edit - '.avi'    (L331, T168, R411, B192)
+   |    | ['suffixEdit', 'Edit32']
+   |    | child_window(title=".avi", class_name="Edit")
+   |    | 
+   |    | CheckBox - '4pix'    (L267, T388, R333, B404)
+   |    | ['CheckBox18', '4pixCheckBox', '4pix']
+   |    | child_window(title="4pix", class_name="Button")
+   |    | 
+   |    | CheckBox - 'ignore blackout'    (L317, T338, R449, B354)
+   |    | ['CheckBox19', 'ignore blackout', 'ignore blackoutCheckBox']
+   |    | child_window(title="ignore blackout", class_name="Button")
+   |    | 
+   |    | Static - 'Fourcc'    (L321, T112, R365, B128)
+   |    | ['Fourcc', 'Static27', 'FourccStatic']
+   |    | child_window(title="Fourcc", class_name="Static")
+   |    | 
+   |    | ComboBox - 'auto'    (L369, T110, R449, B134)
+   |    | ['FourccComboBox2', 'ComboBox6']
+   |    | child_window(title="auto", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    |    | ['FourccEdit2', 'Edit33']
+   |    |    | child_window(title="auto", class_name="Edit")
+   |    | 
+   |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    | ['FourccEdit2', 'Edit33']
+   |    | child_window(title="auto", class_name="Edit")
+   | 
+   | ComboBox - ''    (L131, T60, R345, B84)
+   | ['VideoComboBox', 'ComboBox', 'VideoComboBox0', 'VideoComboBox1', 'ComboBox0', 'ComboBox1']
+   | child_window(class_name="ComboBox")
+   |    | 
+   |    | Edit - ''    (L134, T63, R321, B81)
+   |    | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   | 
+   | Edit - ''    (L134, T63, R321, B81)
+   | ['VideoEdit', 'Edit', 'VideoEdit0', 'VideoEdit1', 'Edit0', 'Edit1']
+   | child_window(class_name="Edit")
+   | 
+   | ComboBox - ''    (L349, T60, R419, B84)
+   | ['VideoComboBox2', 'ComboBox2']
+   | child_window(class_name="ComboBox")
+   |    | 
+   |    | Edit - ''    (L352, T63, R395, B81)
+   |    | ['VideoEdit2', 'Edit2']
+   |    | child_window(class_name="Edit")
+   | 
+   | Edit - ''    (L352, T63, R395, B81)
+   | ['VideoEdit2', 'Edit2']
+   | child_window(class_name="Edit")
+   | 
+   | Button - 'set'    (L419, T60, R449, B84)
+   | ['Button', 'set', 'setButton', 'Button0', 'Button1', 'set0', 'set1', 'setButton0', 'setButton1']
+   | child_window(title="set", class_name="Button")
+   | 
+   | ComboBox - 'NULL'    (L143, T140, R329, B164)
+   | ['ComboBox3', 'AudioComboBox']
+   | child_window(title="NULL", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'NULL'    (L146, T143, R305, B161)
+   |    | ['Edit3', 'AudioEdit']
+   |    | child_window(title="NULL", class_name="Edit")
+   | 
+   | Edit - 'NULL'    (L146, T143, R305, B161)
+   | ['Edit3', 'AudioEdit']
+   | child_window(title="NULL", class_name="Edit")
+   | 
+   | ComboBox - ''    (L331, T140, R411, B164)
+   | ['FourccComboBox', 'ComboBox4', 'FourccComboBox0', 'FourccComboBox1']
+   | child_window(class_name="ComboBox")
+   |    | 
+   |    | Edit - ''    (L334, T143, R387, B161)
+   |    | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   |    | child_window(class_name="Edit")
+   | 
+   | Edit - ''    (L334, T143, R387, B161)
+   | ['FourccEdit', 'Edit4', 'FourccEdit0', 'FourccEdit1']
+   | child_window(class_name="Edit")
+   | 
+   | Button - 'set'    (L415, T140, R449, B164)
+   | ['Button2', 'set2', 'setButton2']
+   | child_window(title="set", class_name="Button")
+   | 
+   | Edit - '1920'    (L143, T86, R207, B110)
+   | ['XiEdit', 'Edit5']
+   | child_window(title="1920", class_name="Edit")
+   | 
+   | Edit - '1080'    (L243, T86, R307, B110)
+   | ['YiEdit', 'Edit6']
+   | child_window(title="1080", class_name="Edit")
+   | 
+   | Edit - '30.000'    (L369, T84, R447, B108)
+   | ['FpsEdit', 'Edit7']
+   | child_window(title="30.000", class_name="Edit")
+   | 
+   | ComboBox - 'AVI(uncompressed)'    (L143, T168, R287, B192)
+   | ['CodecComboBox', 'ComboBox5']
+   | child_window(title="AVI(uncompressed)", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   |    | ['CodecEdit', 'Edit8']
+   |    | child_window(title="AVI(uncompressed)", class_name="Edit")
+   | 
+   | Edit - 'AVI(uncompressed)'    (L146, T171, R263, B189)
+   | ['CodecEdit', 'Edit8']
+   | child_window(title="AVI(uncompressed)", class_name="Edit")
+   | 
+   | Button - 'set'    (L415, T170, R449, B194)
+   | ['Button3', 'set3', 'setButton3']
+   | child_window(title="set", class_name="Button")
+   | 
+   | Edit - '30'    (L187, T216, R221, B240)
+   | ['Edit9', 'HeadEdit']
+   | child_window(title="30", class_name="Edit")
+   | 
+   | UpDown - ''    (L219, T216, R240, B242)
+   | ['UpDown', 'HeadUpDown', 'UpDown0', 'UpDown1']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Static - 'Tail'    (L255, T220, R279, B238)
+   | ['TailStatic', 'Tail', 'Static', 'Static0', 'Static1']
+   | child_window(title="Tail", class_name="Static")
+   | 
+   | UpDown - ''    (L319, T216, R340, B242)
+   | ['UpDown2', 'TailUpDown']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '1'    (L383, T216, R413, B240)
+   | ['DiffEdit', 'Edit10']
+   | child_window(title="1", class_name="Edit")
+   | 
+   | UpDown - ''    (L417, T216, R438, B242)
+   | ['setUpDown', 'UpDown3']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - 'DA-ALL.bmp'    (L187, T278, R357, B302)
+   | ['Edit11', 'Detect AreaEdit']
+   | child_window(title="DA-ALL.bmp", class_name="Edit")
+   | 
+   | Button - '....'    (L361, T276, R393, B300)
+   | ['....Button', '....', 'Button4']
+   | child_window(title="....", class_name="Button")
+   | 
+   | Button - 'Edit'    (L395, T276, R439, B300)
+   | ['EditButton', 'Edit12', 'Button5']
+   | child_window(title="Edit", class_name="Button")
+   | 
+   | Edit - '2'    (L153, T304, R181, B328)
+   | ['Min(frm)Edit', 'Edit13']
+   | child_window(title="2", class_name="Edit")
+   | 
+   | Edit - '0'    (L267, T304, R301, B328)
+   | ['Edit14', 'Max(sec)Edit']
+   | child_window(title="0", class_name="Edit")
+   | 
+   | UpDown - ''    (L301, T304, R322, B330)
+   | ['UpDown4', 'Max(sec)UpDown', 'Max(sec)UpDown0', 'Max(sec)UpDown1']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '100'    (L379, T304, R417, B328)
+   | ['EXsizeEdit', 'Edit15']
+   | child_window(title="100", class_name="Edit")
+   | 
+   | UpDown - ''    (L419, T304, R440, B330)
+   | ['EditUpDown', 'UpDown5']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'Detect Level Noise Tracking'    (L99, T338, R305, B358)
+   | ['CheckBox', 'Detect Level Noise Tracking', 'Detect Level Noise TrackingCheckBox', 'CheckBox0', 'CheckBox1']
+   | child_window(title="Detect Level Noise Tracking", class_name="Button")
+   | 
+   | Edit - '110'    (L153, T356, R193, B380)
+   | ['Edit16', 'DLratio (%)Edit']
+   | child_window(title="110", class_name="Edit")
+   | 
+   | UpDown - ''    (L191, T356, R212, B382)
+   | ['UpDown6', 'Max(sec)UpDown2']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '4'    (L267, T356, R301, B380)
+   | ['MinDLEdit', 'Edit17']
+   | child_window(title="4", class_name="Edit")
+   | 
+   | UpDown - ''    (L301, T358, R322, B384)
+   | ['ignore blackoutUpDown', 'UpDown7', 'ignore blackoutUpDown0', 'ignore blackoutUpDown1']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '10'    (L379, T358, R417, B382)
+   | ['MinL-NEdit', 'Edit18']
+   | child_window(title="10", class_name="Edit")
+   | 
+   | UpDown - ''    (L419, T358, R440, B384)
+   | ['ignore blackoutUpDown2', 'UpDown8']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'Scintillation Mask'    (L99, T388, R231, B404)
+   | ['CheckBox2', 'Scintillation MaskCheckBox', 'Scintillation Mask']
+   | child_window(title="Scintillation Mask", class_name="Button")
+   | 
+   | Edit - '110'    (L149, T412, R187, B436)
+   | ['SMlevelEdit', 'Edit19']
+   | child_window(title="110", class_name="Edit")
+   | 
+   | UpDown - ''    (L185, T410, R206, B436)
+   | ['SMspeedUpDown', 'UpDown9', 'SMspeedUpDown0', 'SMspeedUpDown1']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '2'    (L267, T412, R301, B436)
+   | ['SMspeedEdit', 'Edit20']
+   | child_window(title="2", class_name="Edit")
+   | 
+   | UpDown - ''    (L301, T412, R322, B438)
+   | ['SMspeedUpDown2', 'UpDown10']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Static - 'SMsize'    (L327, T414, R371, B430)
+   | ['Static2', 'SMsize', 'SMsizeStatic']
+   | child_window(title="SMsize", class_name="Static")
+   | 
+   | Edit - '8'    (L379, T410, R417, B434)
+   | ['SMsizeEdit', 'Edit21']
+   | child_window(title="8", class_name="Edit")
+   | 
+   | UpDown - ''    (L419, T412, R440, B438)
+   | ['SMsizeUpDown', 'UpDown11']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'DarkObjMask'    (L99, T444, R207, B460)
+   | ['CheckBox3', 'DarkObjMaskCheckBox', 'DarkObjMask']
+   | child_window(title="DarkObjMask", class_name="Button")
+   | 
+   | Edit - '2'    (L267, T438, R301, B462)
+   | ['DOlevelEdit', 'Edit22']
+   | child_window(title="2", class_name="Edit")
+   | 
+   | UpDown - ''    (L301, T438, R322, B464)
+   | ['DOlevelUpDown', 'UpDown12']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'SlowObjMask   Pix/s'    (L99, T468, R267, B486)
+   | ['CheckBox4', 'SlowObjMask   Pix/s', 'SlowObjMask   Pix/sCheckBox']
+   | child_window(title="SlowObjMask   Pix/s", class_name="Button")
+   | 
+   | Edit - '36'    (L267, T466, R301, B490)
+   | ['Edit23', 'SlowObjMask   Pix/sEdit']
+   | child_window(title="36", class_name="Edit")
+   | 
+   | UpDown - ''    (L301, T464, R322, B490)
+   | ['UpDown13', 'SlowObjMask   Pix/sUpDown']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Static - 'SOsize'    (L329, T470, R377, B490)
+   | ['SOsize', 'Static3', 'SOsizeStatic']
+   | child_window(title="SOsize", class_name="Static")
+   | 
+   | Edit - '36'    (L379, T466, R417, B490)
+   | ['SOsizeEdit', 'Edit24']
+   | child_window(title="36", class_name="Edit")
+   | 
+   | UpDown - ''    (L419, T466, R440, B492)
+   | ['SOsizeUpDown', 'UpDown14']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'Audio'    (L99, T520, R161, B536)
+   | ['CheckBox5', 'Audio', 'AudioCheckBox', 'Audio0', 'Audio1']
+   | child_window(title="Audio", class_name="Button")
+   | 
+   | CheckBox - 'Interval (still only'    (L169, T520, R311, B536)
+   | ['CheckBox6', 'Interval (still only', 'Interval (still onlyCheckBox']
+   | child_window(title="Interval (still only", class_name="Button")
+   | 
+   | Edit - '60'    (L379, T516, R417, B540)
+   | [') MinEdit', 'Edit25']
+   | child_window(title="60", class_name="Edit")
+   | 
+   | UpDown - ''    (L417, T516, R438, B538)
+   | ['UpDown15', 'Optional TriggersUpDown']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '%T%m %F%X %L %i %I UFOCaptureHD2'    (L151, T568, R435, B592)
+   | ['FormatEdit', 'Edit26']
+   | child_window(title="%T%m %F%X %L %i %I UFOCaptureHD2", class_name="Edit")
+   | 
+   | CheckBox - 'On'    (L99, T600, R143, B620)
+   | ['CheckBox7', 'On', 'OnCheckBox']
+   | child_window(title="On", class_name="Button")
+   | 
+   | RadioButton - 's'    (L139, T600, R171, B618)
+   | ['s', 'sRadioButton', 'RadioButton', 'RadioButton0', 'RadioButton1']
+   | child_window(title="s", class_name="Button")
+   | 
+   | RadioButton - 'm'    (L171, T600, R205, B618)
+   | ['mRadioButton', 'RadioButton2', 'm']
+   | child_window(title="m", class_name="Button")
+   | 
+   | RadioButton - 'l'    (L207, T600, R243, B618)
+   | ['lRadioButton', 'RadioButton3', 'l']
+   | child_window(title="l", class_name="Button")
+   | 
+   | Edit - '1'    (L287, T596, R323, B620)
+   | ['Edit27', 'Y-PosEdit']
+   | child_window(title="1", class_name="Edit")
+   | 
+   | UpDown - ''    (L323, T596, R344, B622)
+   | ['Y-PosUpDown', 'UpDown16']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | CheckBox - 'UTC'    (L99, T632, R153, B652)
+   | ['CheckBox8', 'UTCCheckBox', 'UTC']
+   | child_window(title="UTC", class_name="Button")
+   | 
+   | CheckBox - 'ChangeDate'    (L199, T632, R301, B652)
+   | ['CheckBox9', 'ChangeDate', 'ChangeDateCheckBox']
+   | child_window(title="ChangeDate", class_name="Button")
+   | 
+   | Edit - '20111231_235959'    (L307, T632, R435, B656)
+   | ['ChangeDateEdit', 'Edit28']
+   | child_window(title="20111231_235959", class_name="Edit")
+   | 
+   | CheckBox - 'Area'    (L177, T660, R239, B680)
+   | ['CheckBox10', 'AreaCheckBox', 'Area']
+   | child_window(title="Area", class_name="Button")
+   | 
+   | CheckBox - 'SMw'    (L245, T660, R299, B680)
+   | ['CheckBox11', 'SMwCheckBox', 'SMw']
+   | child_window(title="SMw", class_name="Button")
+   | 
+   | CheckBox - 'SMb'    (L311, T660, R369, B680)
+   | ['CheckBox12', 'SMbCheckBox', 'SMb']
+   | child_window(title="SMb", class_name="Button")
+   | 
+   | Static - 'Video'    (L91, T66, R127, B82)
+   | ['VideoStatic', 'Static4', 'Video']
+   | child_window(title="Video", class_name="Static")
+   | 
+   | Static - 'Audio'    (L91, T146, R129, B162)
+   | ['Audio2', 'AudioStatic', 'Static5', 'AudioStatic0', 'AudioStatic1']
+   | child_window(title="Audio", class_name="Static")
+   | 
+   | Static - 'Codec'    (L91, T174, R133, B190)
+   | ['CodecStatic', 'Codec', 'Static6']
+   | child_window(title="Codec", class_name="Static")
+   | 
+   | Static - 'Xi'    (L121, T88, R137, B104)
+   | ['Static7', 'XiStatic', 'Xi']
+   | child_window(title="Xi", class_name="Static")
+   | 
+   | Static - 'Fps'    (L333, T86, R355, B104)
+   | ['FpsStatic', 'Static8', 'Fps']
+   | child_window(title="Fps", class_name="Static")
+   | 
+   | Static - 'Head'    (L143, T220, R179, B236)
+   | ['Head', 'Static9', 'HeadStatic']
+   | child_window(title="Head", class_name="Static")
+   | 
+   | Static - 'Diff'    (L351, T220, R375, B242)
+   | ['Diff', 'Static10', 'DiffStatic']
+   | child_window(title="Diff", class_name="Static")
+   | 
+   | Edit - '30'    (L291, T216, R321, B240)
+   | ['TailEdit', 'Edit29']
+   | child_window(title="30", class_name="Edit")
+   | 
+   | GroupBox - 'Frame Shift'    (L91, T200, R443, B252)
+   | ['Frame ShiftGroupBox', 'Frame Shift', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   | child_window(title="Frame Shift", class_name="Button")
+   | 
+   | Static - 'Y-Pos'    (L245, T604, R285, B620)
+   | ['Static11', 'Y-Pos', 'Y-PosStatic']
+   | child_window(title="Y-Pos", class_name="Static")
+   | 
+   | GroupBox - 'Super Impose'    (L91, T548, R445, B686)
+   | ['Super Impose', 'GroupBox2', 'Super ImposeGroupBox']
+   | child_window(title="Super Impose", class_name="Button")
+   | 
+   | Static - 'Min(frm)'    (L93, T310, R153, B326)
+   | ['Min(frm)Static', 'Min(frm)', 'Static12']
+   | child_window(title="Min(frm)", class_name="Static")
+   | 
+   | UpDown - ''    (L181, T304, R202, B330)
+   | ['Detect AreaUpDown', 'UpDown17', 'Min(frm)UpDown']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Static - 'EXsize'    (L325, T310, R375, B326)
+   | ['EXsize', 'Static13', 'EXsizeStatic']
+   | child_window(title="EXsize", class_name="Static")
+   | 
+   | Static - 'Max(sec)'    (L205, T310, R265, B326)
+   | ['Max(sec)Static', 'Static14', 'Max(sec)']
+   | child_window(title="Max(sec)", class_name="Static")
+   | 
+   | Static - 'MinL-N'    (L327, T362, R371, B378)
+   | ['MinL-N', 'MinL-NStatic', 'Static15']
+   | child_window(title="MinL-N", class_name="Static")
+   | 
+   | GroupBox - 'Video Trigger'    (L91, T256, R447, B496)
+   | ['Video Trigger', 'Video TriggerGroupBox', 'GroupBox3']
+   | child_window(title="Video Trigger", class_name="Button")
+   | 
+   | Static - 'Detect Area'    (L95, T284, R175, B300)
+   | ['Detect Area', 'Static16', 'Detect AreaStatic']
+   | child_window(title="Detect Area", class_name="Static")
+   | 
+   | Static - 'Format'    (L95, T568, R147, B584)
+   | ['Format', 'Static17', 'FormatStatic']
+   | child_window(title="Format", class_name="Static")
+   | 
+   | Static - 'Yi'    (L223, T88, R239, B104)
+   | ['Yi', 'YiStatic', 'Static18']
+   | child_window(title="Yi", class_name="Static")
+   | 
+   | Static - 'Preview opt'    (L97, T660, R175, B676)
+   | ['Preview optStatic', 'Preview opt', 'Static19']
+   | child_window(title="Preview opt", class_name="Static")
+   | 
+   | Static - 'SMspeed'    (L205, T414, R263, B430)
+   | ['SMspeedStatic', 'Static20', 'SMspeed']
+   | child_window(title="SMspeed", class_name="Static")
+   | 
+   | CheckBox - 'File input'    (L99, T698, R189, B718)
+   | ['CheckBox13', 'File inputCheckBox', 'File input']
+   | child_window(title="File input", class_name="Button")
+   | 
+   | Edit - 'C:\Users\micha\Documents'    (L189, T696, R385, B720)
+   | ['AreaEdit', 'Edit30']
+   | child_window(title="C:\Users\micha\Documents", class_name="Edit")
+   | 
+   | Button - '...'    (L393, T700, R419, B718)
+   | ['...Button', '...', 'Button6']
+   | child_window(title="...", class_name="Button")
+   | 
+   | Static - 'MinDL'    (L217, T362, R261, B378)
+   | ['MinDLStatic', 'Static21', 'MinDL']
+   | child_window(title="MinDL", class_name="Static")
+   | 
+   | GroupBox - 'Optional Triggers'    (L91, T498, R445, B546)
+   | ['Optional TriggersGroupBox', 'Optional Triggers', 'GroupBox4']
+   | child_window(title="Optional Triggers", class_name="Button")
+   | 
+   | Static - 'SMlevel'    (L97, T414, R147, B430)
+   | ['SMlevelStatic', 'Static22', 'SMlevel']
+   | child_window(title="SMlevel", class_name="Static")
+   | 
+   | Static - 'DLratio (%)'    (L93, T362, R145, B378)
+   | ['DLratio (%)Static', 'DLratio (%)', 'Static23']
+   | child_window(title="DLratio (%)", class_name="Static")
+   | 
+   | Static - 'DOlevel'    (L213, T444, R263, B460)
+   | ['DOlevelStatic', 'DOlevel', 'Static24']
+   | child_window(title="DOlevel", class_name="Static")
+   | 
+   | Static - '+msec'    (L347, T602, R393, B618)
+   | ['Static25', '+msecStatic', '+msec']
+   | child_window(title="+msec", class_name="Static")
+   | 
+   | Edit - '-33'    (L395, T596, R435, B620)
+   | ['+msecEdit', 'Edit31']
+   | child_window(title="-33", class_name="Edit")
+   | 
+   | CheckBox - 'SO'    (L387, T660, R433, B678)
+   | ['CheckBox14', 'SO', 'SOCheckBox']
+   | child_window(title="SO", class_name="Button")
+   | 
+   | CheckBox - 'Interlace'    (L91, T112, R181, B132)
+   | ['CheckBox15', 'InterlaceCheckBox', 'Interlace']
+   | child_window(title="Interlace", class_name="Button")
+   | 
+   | CheckBox - 'BottomFieldFirst'    (L185, T112, R319, B132)
+   | ['CheckBox16', 'BottomFieldFirstCheckBox', 'BottomFieldFirst']
+   | child_window(title="BottomFieldFirst", class_name="Button")
+   | 
+   | CheckBox - ') Min'    (L313, T520, R375, B536)
+   | ['CheckBox17', ') MinCheckBox', ') Min']
+   | child_window(title=") Min", class_name="Button")
+   | 
+   | Static - 'suffix'    (L293, T174, R331, B190)
+   | ['suffix', 'Static26', 'suffixStatic']
+   | child_window(title="suffix", class_name="Static")
+   | 
+   | Edit - '.avi'    (L331, T168, R411, B192)
+   | ['suffixEdit', 'Edit32']
+   | child_window(title=".avi", class_name="Edit")
+   | 
+   | CheckBox - '4pix'    (L267, T388, R333, B404)
+   | ['CheckBox18', '4pixCheckBox', '4pix']
+   | child_window(title="4pix", class_name="Button")
+   | 
+   | CheckBox - 'ignore blackout'    (L317, T338, R449, B354)
+   | ['CheckBox19', 'ignore blackout', 'ignore blackoutCheckBox']
+   | child_window(title="ignore blackout", class_name="Button")
+   | 
+   | Static - 'Fourcc'    (L321, T112, R365, B128)
+   | ['Fourcc', 'Static27', 'FourccStatic']
+   | child_window(title="Fourcc", class_name="Static")
+   | 
+   | ComboBox - 'auto'    (L369, T110, R449, B134)
+   | ['FourccComboBox2', 'ComboBox6']
+   | child_window(title="auto", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'auto'    (L372, T113, R425, B131)
+   |    | ['FourccEdit2', 'Edit33']
+   |    | child_window(title="auto", class_name="Edit")
+   | 
+   | Edit - 'auto'    (L372, T113, R425, B131)
+   | ['FourccEdit2', 'Edit33']
+   | child_window(title="auto", class_name="Edit")
+   | 
+   | Button - 'OK'    (L289, T750, R389, B778)
+   | ['OK', 'Button7', 'OKButton', 'OK0', 'OK1', 'OKButton0', 'OKButton1']
+   | child_window(title="OK", class_name="Button")
+   | 
+   | Button - 'Cancel'    (L397, T750, R497, B778)
+   | ['Button8', 'CancelButton', 'Cancel', 'CancelButton0', 'CancelButton1', 'Cancel0', 'Cancel1']
+   | child_window(title="Cancel", class_name="Button")
+   | 
+   | Button - '&Apply'    (L505, T750, R605, B778)
+   | ['&ApplyButton', '&Apply', 'Button9', '&ApplyButton0', '&ApplyButton1', '&Apply0', '&Apply1']
+   | child_window(title="&Apply", class_name="Button")
+   | 
+   | Button - 'Help'    (L613, T750, R713, B778)
+   | ['HelpButton', 'Help', 'Button10', 'HelpButton0', 'HelpButton1', 'Help0', 'Help1']
+   | child_window(title="Help", class_name="Button")
+   | 
+   | TabControl - ''    (L87, T31, R630, B1080)
+   | ['TabControlDB', 'VideoTabControl', 'TabControlInput', 'TabControl', 'TabControlProfile', 'TabControlOperation', 'TabControl0', 'TabControl1']
+   | child_window(class_name="SysTabControl32")
+   | 
+   | #32770 - ''    (L632, T31, R1918, B1080)
+   | ['#327703', 'Stop#32770']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | #32770 - 'Live'    (L636, T56, R1914, B1076)
+   |    | ['Live', 'Live#32770', '#327704']
+   |    | child_window(title="Live", class_name="#32770")
+   |    |    | 
+   |    |    | Static - ''    (L638, T166, R1917, B885)
+   |    |    | ['Detect LevStatic', 'Static28', 'Detect LevStatic0', 'Detect LevStatic1']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Button - 'Detect'    (L762, T58, R830, B86)
+   |    |    | ['DetectButton', 'Detect', 'Button11']
+   |    |    | child_window(title="Detect", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Preview'    (L696, T58, R760, B86)
+   |    |    | ['PreviewButton', 'Preview', 'Button12']
+   |    |    | child_window(title="Preview", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Stop'    (L638, T58, R692, B86)
+   |    |    | ['StopButton', 'Stop', 'Button13']
+   |    |    | child_window(title="Stop", class_name="Button")
+   |    |    | 
+   |    |    | Button - '1:N'    (L1882, T59, R1922, B83)
+   |    |    | ['1:N', '1:NButton', 'Button14']
+   |    |    | child_window(title="1:N", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Rec'    (L834, T58, R892, B86)
+   |    |    | ['Rec', 'RecButton', 'Button15']
+   |    |    | child_window(title="Rec", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Detect Size'    (L636, T100, R728, B116)
+   |    |    | ['Detect Size', 'Static29', 'Detect SizeStatic']
+   |    |    | child_window(title="Detect Size", class_name="Static")
+   |    |    | 
+   |    |    | UpDown - ''    (L774, T134, R795, B160)
+   |    |    | ['Detect LevUpDown', 'Detect SizeUpDown', 'UpDown18']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '15'    (L730, T134, R772, B158)
+   |    |    | ['Edit34', 'Detect LevEdit']
+   |    |    | child_window(title="15", class_name="Edit")
+   |    |    | 
+   |    |    | UpDown - ''    (L774, T98, R795, B124)
+   |    |    | ['UpDown19', 'DetectUpDown']
+   |    |    | child_window(class_name="msctls_updown32")
+   |    |    | 
+   |    |    | Edit - '3'    (L730, T98, R772, B122)
+   |    |    | ['Detect SizeEdit', 'Edit35']
+   |    |    | child_window(title="3", class_name="Edit")
+   |    |    | 
+   |    |    | Trackbar - ''    (L802, T144, R1852, B164)
+   |    |    | ['Detect LevTrackbar', 'Trackbar', 'Trackbar0', 'Trackbar1']
+   |    |    | child_window(class_name="msctls_trackbar32")
+   |    |    | 
+   |    |    | Progress - ''    (L810, T126, R1848, B142)
+   |    |    | ['RecProgress', 'Progress', 'RecProgress0', 'RecProgress1', 'Progress0', 'Progress1']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Trackbar - ''    (L802, T104, R1852, B124)
+   |    |    | ['Trackbar2', 'RecTrackbar']
+   |    |    | child_window(class_name="msctls_trackbar32")
+   |    |    | 
+   |    |    | Progress - ''    (L810, T88, R1848, B104)
+   |    |    | ['RecProgress2', 'Progress2']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Static - 'Detect Lev'    (L636, T138, R730, B154)
+   |    |    | ['Detect LevStatic2', 'Static30', 'Detect Lev']
+   |    |    | child_window(title="Detect Lev", class_name="Static")
+   |    |    | 
+   |    |    | Progress - ''    (L956, T56, R1760, B70)
+   |    |    | ['Progress3', 'AudioProgress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    | 
+   |    |    | Trackbar - ''    (L948, T70, R1765, B85)
+   |    |    | ['Trackbar3', 'AudioTrackbar']
+   |    |    | child_window(class_name="msctls_trackbar32")
+   |    |    | 
+   |    |    | Static - 'Audio'    (L908, T62, R952, B78)
+   |    |    | ['Audio3', 'AudioStatic2', 'Static31']
+   |    |    | child_window(title="Audio", class_name="Static")
+   |    | 
+   |    | Static - ''    (L638, T166, R1917, B885)
+   |    | ['Detect LevStatic', 'Static28', 'Detect LevStatic0', 'Detect LevStatic1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Button - 'Detect'    (L762, T58, R830, B86)
+   |    | ['DetectButton', 'Detect', 'Button11']
+   |    | child_window(title="Detect", class_name="Button")
+   |    | 
+   |    | Button - 'Preview'    (L696, T58, R760, B86)
+   |    | ['PreviewButton', 'Preview', 'Button12']
+   |    | child_window(title="Preview", class_name="Button")
+   |    | 
+   |    | Button - 'Stop'    (L638, T58, R692, B86)
+   |    | ['StopButton', 'Stop', 'Button13']
+   |    | child_window(title="Stop", class_name="Button")
+   |    | 
+   |    | Button - '1:N'    (L1882, T59, R1922, B83)
+   |    | ['1:N', '1:NButton', 'Button14']
+   |    | child_window(title="1:N", class_name="Button")
+   |    | 
+   |    | Button - 'Rec'    (L834, T58, R892, B86)
+   |    | ['Rec', 'RecButton', 'Button15']
+   |    | child_window(title="Rec", class_name="Button")
+   |    | 
+   |    | Static - 'Detect Size'    (L636, T100, R728, B116)
+   |    | ['Detect Size', 'Static29', 'Detect SizeStatic']
+   |    | child_window(title="Detect Size", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L774, T134, R795, B160)
+   |    | ['Detect LevUpDown', 'Detect SizeUpDown', 'UpDown18']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '15'    (L730, T134, R772, B158)
+   |    | ['Edit34', 'Detect LevEdit']
+   |    | child_window(title="15", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L774, T98, R795, B124)
+   |    | ['UpDown19', 'DetectUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '3'    (L730, T98, R772, B122)
+   |    | ['Detect SizeEdit', 'Edit35']
+   |    | child_window(title="3", class_name="Edit")
+   |    | 
+   |    | Trackbar - ''    (L802, T144, R1852, B164)
+   |    | ['Detect LevTrackbar', 'Trackbar', 'Trackbar0', 'Trackbar1']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Progress - ''    (L810, T126, R1848, B142)
+   |    | ['RecProgress', 'Progress', 'RecProgress0', 'RecProgress1', 'Progress0', 'Progress1']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Trackbar - ''    (L802, T104, R1852, B124)
+   |    | ['Trackbar2', 'RecTrackbar']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Progress - ''    (L810, T88, R1848, B104)
+   |    | ['RecProgress2', 'Progress2']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Static - 'Detect Lev'    (L636, T138, R730, B154)
+   |    | ['Detect LevStatic2', 'Static30', 'Detect Lev']
+   |    | child_window(title="Detect Lev", class_name="Static")
+   |    | 
+   |    | Progress - ''    (L956, T56, R1760, B70)
+   |    | ['Progress3', 'AudioProgress']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Trackbar - ''    (L948, T70, R1765, B85)
+   |    | ['Trackbar3', 'AudioTrackbar']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Static - 'Audio'    (L908, T62, R952, B78)
+   |    | ['Audio3', 'AudioStatic2', 'Static31']
+   |    | child_window(title="Audio", class_name="Static")
+   |    | 
+   |    | Button - 'OK'    (L752, T560, R852, B588)
+   |    | ['OK2', 'Button16', 'OKButton2']
+   |    | child_window(title="OK", class_name="Button")
+   |    | 
+   |    | Button - 'Cancel'    (L860, T560, R960, B588)
+   |    | ['Button17', 'CancelButton2', 'Cancel2']
+   |    | child_window(title="Cancel", class_name="Button")
+   |    | 
+   |    | Button - '&Apply'    (L968, T560, R1068, B588)
+   |    | ['&ApplyButton2', '&Apply2', 'Button18']
+   |    | child_window(title="&Apply", class_name="Button")
+   |    | 
+   |    | Button - 'Help'    (L1076, T560, R1176, B588)
+   |    | ['HelpButton2', 'Help2', 'Button19']
+   |    | child_window(title="Help", class_name="Button")
+   |    | 
+   |    | TabControl - ''    (L632, T31, R1918, B1080)
+   |    | ['TabControlLive', 'TabControlReplay', 'TabControl2', 'StopTabControl']
+   |    | child_window(class_name="SysTabControl32")
+   | 
+   | #32770 - 'Live'    (L636, T56, R1914, B1076)
+   | ['Live', 'Live#32770', '#327704']
+   | child_window(title="Live", class_name="#32770")
+   |    | 
+   |    | Static - ''    (L638, T166, R1917, B885)
+   |    | ['Detect LevStatic', 'Static28', 'Detect LevStatic0', 'Detect LevStatic1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Button - 'Detect'    (L762, T58, R830, B86)
+   |    | ['DetectButton', 'Detect', 'Button11']
+   |    | child_window(title="Detect", class_name="Button")
+   |    | 
+   |    | Button - 'Preview'    (L696, T58, R760, B86)
+   |    | ['PreviewButton', 'Preview', 'Button12']
+   |    | child_window(title="Preview", class_name="Button")
+   |    | 
+   |    | Button - 'Stop'    (L638, T58, R692, B86)
+   |    | ['StopButton', 'Stop', 'Button13']
+   |    | child_window(title="Stop", class_name="Button")
+   |    | 
+   |    | Button - '1:N'    (L1882, T59, R1922, B83)
+   |    | ['1:N', '1:NButton', 'Button14']
+   |    | child_window(title="1:N", class_name="Button")
+   |    | 
+   |    | Button - 'Rec'    (L834, T58, R892, B86)
+   |    | ['Rec', 'RecButton', 'Button15']
+   |    | child_window(title="Rec", class_name="Button")
+   |    | 
+   |    | Static - 'Detect Size'    (L636, T100, R728, B116)
+   |    | ['Detect Size', 'Static29', 'Detect SizeStatic']
+   |    | child_window(title="Detect Size", class_name="Static")
+   |    | 
+   |    | UpDown - ''    (L774, T134, R795, B160)
+   |    | ['Detect LevUpDown', 'Detect SizeUpDown', 'UpDown18']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '15'    (L730, T134, R772, B158)
+   |    | ['Edit34', 'Detect LevEdit']
+   |    | child_window(title="15", class_name="Edit")
+   |    | 
+   |    | UpDown - ''    (L774, T98, R795, B124)
+   |    | ['UpDown19', 'DetectUpDown']
+   |    | child_window(class_name="msctls_updown32")
+   |    | 
+   |    | Edit - '3'    (L730, T98, R772, B122)
+   |    | ['Detect SizeEdit', 'Edit35']
+   |    | child_window(title="3", class_name="Edit")
+   |    | 
+   |    | Trackbar - ''    (L802, T144, R1852, B164)
+   |    | ['Detect LevTrackbar', 'Trackbar', 'Trackbar0', 'Trackbar1']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Progress - ''    (L810, T126, R1848, B142)
+   |    | ['RecProgress', 'Progress', 'RecProgress0', 'RecProgress1', 'Progress0', 'Progress1']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Trackbar - ''    (L802, T104, R1852, B124)
+   |    | ['Trackbar2', 'RecTrackbar']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Progress - ''    (L810, T88, R1848, B104)
+   |    | ['RecProgress2', 'Progress2']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Static - 'Detect Lev'    (L636, T138, R730, B154)
+   |    | ['Detect LevStatic2', 'Static30', 'Detect Lev']
+   |    | child_window(title="Detect Lev", class_name="Static")
+   |    | 
+   |    | Progress - ''    (L956, T56, R1760, B70)
+   |    | ['Progress3', 'AudioProgress']
+   |    | child_window(class_name="msctls_progress32")
+   |    | 
+   |    | Trackbar - ''    (L948, T70, R1765, B85)
+   |    | ['Trackbar3', 'AudioTrackbar']
+   |    | child_window(class_name="msctls_trackbar32")
+   |    | 
+   |    | Static - 'Audio'    (L908, T62, R952, B78)
+   |    | ['Audio3', 'AudioStatic2', 'Static31']
+   |    | child_window(title="Audio", class_name="Static")
+   | 
+   | Static - ''    (L638, T166, R1917, B885)
+   | ['Detect LevStatic', 'Static28', 'Detect LevStatic0', 'Detect LevStatic1']
+   | child_window(class_name="Static")
+   | 
+   | Button - 'Detect'    (L762, T58, R830, B86)
+   | ['DetectButton', 'Detect', 'Button11']
+   | child_window(title="Detect", class_name="Button")
+   | 
+   | Button - 'Preview'    (L696, T58, R760, B86)
+   | ['PreviewButton', 'Preview', 'Button12']
+   | child_window(title="Preview", class_name="Button")
+   | 
+   | Button - 'Stop'    (L638, T58, R692, B86)
+   | ['StopButton', 'Stop', 'Button13']
+   | child_window(title="Stop", class_name="Button")
+   | 
+   | Button - '1:N'    (L1882, T59, R1922, B83)
+   | ['1:N', '1:NButton', 'Button14']
+   | child_window(title="1:N", class_name="Button")
+   | 
+   | Button - 'Rec'    (L834, T58, R892, B86)
+   | ['Rec', 'RecButton', 'Button15']
+   | child_window(title="Rec", class_name="Button")
+   | 
+   | Static - 'Detect Size'    (L636, T100, R728, B116)
+   | ['Detect Size', 'Static29', 'Detect SizeStatic']
+   | child_window(title="Detect Size", class_name="Static")
+   | 
+   | UpDown - ''    (L774, T134, R795, B160)
+   | ['Detect LevUpDown', 'Detect SizeUpDown', 'UpDown18']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '15'    (L730, T134, R772, B158)
+   | ['Edit34', 'Detect LevEdit']
+   | child_window(title="15", class_name="Edit")
+   | 
+   | UpDown - ''    (L774, T98, R795, B124)
+   | ['UpDown19', 'DetectUpDown']
+   | child_window(class_name="msctls_updown32")
+   | 
+   | Edit - '3'    (L730, T98, R772, B122)
+   | ['Detect SizeEdit', 'Edit35']
+   | child_window(title="3", class_name="Edit")
+   | 
+   | Trackbar - ''    (L802, T144, R1852, B164)
+   | ['Detect LevTrackbar', 'Trackbar', 'Trackbar0', 'Trackbar1']
+   | child_window(class_name="msctls_trackbar32")
+   | 
+   | Progress - ''    (L810, T126, R1848, B142)
+   | ['RecProgress', 'Progress', 'RecProgress0', 'RecProgress1', 'Progress0', 'Progress1']
+   | child_window(class_name="msctls_progress32")
+   | 
+   | Trackbar - ''    (L802, T104, R1852, B124)
+   | ['Trackbar2', 'RecTrackbar']
+   | child_window(class_name="msctls_trackbar32")
+   | 
+   | Progress - ''    (L810, T88, R1848, B104)
+   | ['RecProgress2', 'Progress2']
+   | child_window(class_name="msctls_progress32")
+   | 
+   | Static - 'Detect Lev'    (L636, T138, R730, B154)
+   | ['Detect LevStatic2', 'Static30', 'Detect Lev']
+   | child_window(title="Detect Lev", class_name="Static")
+   | 
+   | Progress - ''    (L956, T56, R1760, B70)
+   | ['Progress3', 'AudioProgress']
+   | child_window(class_name="msctls_progress32")
+   | 
+   | Trackbar - ''    (L948, T70, R1765, B85)
+   | ['Trackbar3', 'AudioTrackbar']
+   | child_window(class_name="msctls_trackbar32")
+   | 
+   | Static - 'Audio'    (L908, T62, R952, B78)
+   | ['Audio3', 'AudioStatic2', 'Static31']
+   | child_window(title="Audio", class_name="Static")
+   | 
+   | Button - 'OK'    (L752, T560, R852, B588)
+   | ['OK2', 'Button16', 'OKButton2']
+   | child_window(title="OK", class_name="Button")
+   | 
+   | Button - 'Cancel'    (L860, T560, R960, B588)
+   | ['Button17', 'CancelButton2', 'Cancel2']
+   | child_window(title="Cancel", class_name="Button")
+   | 
+   | Button - '&Apply'    (L968, T560, R1068, B588)
+   | ['&ApplyButton2', '&Apply2', 'Button18']
+   | child_window(title="&Apply", class_name="Button")
+   | 
+   | Button - 'Help'    (L1076, T560, R1176, B588)
+   | ['HelpButton2', 'Help2', 'Button19']
+   | child_window(title="Help", class_name="Button")
+   | 
+   | TabControl - ''    (L632, T31, R1918, B1080)
+   | ['TabControlLive', 'TabControlReplay', 'TabControl2', 'StopTabControl']
+   | child_window(class_name="SysTabControl32")
